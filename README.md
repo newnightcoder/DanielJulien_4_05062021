@@ -44,3 +44,7 @@ of the website [La Chouette](https://newnightcoder.github.io/DanielJulien_4_0506
 - Results comparison:
   - Accessibility
   - Performance / loading time
+
+**Lighthouse report before any correction:**
+
+<img src="/report-img/img1.png"/>
