@@ -10,7 +10,7 @@ of the website [La Chouette](https://newnightcoder.github.io/DanielJulien_4_0506
 
 ## :memo:&nbsp; <ins>Analysis</ins>
 
-### 10 recommendations:
+### Recommendations:
 
 - [ ] meta "keywords": content is too vague/repetitive
 - [ ] meta "description": no empty content
