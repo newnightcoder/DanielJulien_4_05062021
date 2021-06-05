@@ -1,4 +1,4 @@
-# La Chouette - SEO Project
+# La Chouette - Website optimization Project
 
 The goal of this project is to improve:
 
