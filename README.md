@@ -47,4 +47,4 @@ of the website [La Chouette](https://newnightcoder.github.io/DanielJulien_4_0506
 
 **Lighthouse report before any correction:**
 
-<img src="/report-img/img1.png"/>
+<img src="/report-img/img1.png" height="50"/>
