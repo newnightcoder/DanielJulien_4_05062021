@@ -23,11 +23,11 @@ of the website [La Chouette](https://newnightcoder.github.io/DanielJulien_4_0506
 - [ ] css: too many selectors
 - [ ] css: media queries issues
 
-| Category     | Issue                                | Description                                          | Good practice | Recommended action |
-| ------------ | ------------------------------------ | ---------------------------------------------------- | ------------- | ------------------ |
+| Category     | Issue                                | Description                                          | Good practice                      | Recommended action |
+| ------------ | ------------------------------------ | ---------------------------------------------------- | ---------------------------------- | ------------------ |
 | :mag_right:  | improper content for meta "keywords" | content is too vague / repetitive                    |
 | :mag_right:  | empty content in meta "description"  |
-| :mag_right:  | empty `<title>`                      |
+| :mag_right:  | empty `<title>`                      |                                                      | always provide a title to the page |
 | :wheelchair: | improper alt for img                 | img alt text too long / not descriptive of the img   |
 | :wheelchair: | font-size too small                  | `<p>` font-size is too small / hard to read          |
 | :wheelchair: | improper color contrast              | insufficient brightness of text on img background    |
