@@ -2,13 +2,13 @@
 
 The goal of this project is to improve:
 
-- :mag_right: SEO
-- :wheelchair: Accessibility
-- :rocket: Performance
+- :mag_right:&nbsp; SEO
+- :wheelchair:&nbsp; Accessibility
+- :rocket:&nbsp; Performance
 
 of the website [La Chouette](https://newnightcoder.github.io/DanielJulien_4_05062021), a design agency based in Lyon, France.
 
-## :memo: <u>Analysis</u>
+## :memo:&nbsp; <ins>Analysis</ins>
 
 ### 10 recommandations:
 
@@ -36,7 +36,7 @@ of the website [La Chouette](https://newnightcoder.github.io/DanielJulien_4_0506
 |          |
 |          |
 
-## :chart_with_upwards_trend: <u>Optimization Report</u>
+## :chart_with_upwards_trend:&nbsp; <ins>Optimization Report</ins>
 
 - SEO improvements
 - Results comparison:
