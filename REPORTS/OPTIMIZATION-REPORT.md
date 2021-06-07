@@ -14,4 +14,4 @@
 <br></br>
 
 Errors report is available [here](/ERRORS.md).  
-Go back to [README](README.md).
+Go back to [README](../README.md).
