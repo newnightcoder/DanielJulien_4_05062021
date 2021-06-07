@@ -8,5 +8,7 @@ The goal of this project is to improve:
 
 of the website [La Chouette](https://newnightcoder.github.io/DanielJulien_4_05062021), a design agency based in Lyon, France.
 
-Errors report is available [here](/ERRORS.md).
+<br></br>
+
+Errors report is available [here](/ERRORS.md).  
 Optimization report [here](/OPTIMIZATION-REPORT.md).

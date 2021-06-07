@@ -12,14 +12,14 @@
 - [ ] title must be provided
 - [ ] usage of `<h3>` instad of `<h2>`
 - [ ] href attribute must include http protocol for external links
-      <br>
+      <br></br>
 
 **:wheelchair:&nbsp; ACCESSIBILITY**
 
 - [ ] img alt text too long / not descriptive of the img
 - [ ] font-size too small
 - [ ] improper color contrast
-      <br>
+      <br></br>
 
 **:rocket:&nbsp; PERFORMANCE**
 
@@ -46,3 +46,6 @@
 | :rocket:     | css: too many selectors              |
 |              | css media query issues               |
 |              | improper href in links               | no http protocol for external links                  |
+
+Optimization report [here](/OPTIMIZATION-REPORT.md).
+Go back to [README](README.md).
