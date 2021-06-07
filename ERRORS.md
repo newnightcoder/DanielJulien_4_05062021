@@ -47,5 +47,7 @@
 |              | css media query issues               |
 |              | improper href in links               | no http protocol for external links                  |
 
+<br></br>
+
 Optimization report [here](/OPTIMIZATION-REPORT.md).
 Go back to [README](README.md).
