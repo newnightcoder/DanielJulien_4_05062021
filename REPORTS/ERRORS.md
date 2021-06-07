@@ -49,5 +49,5 @@
 
 <br></br>
 
-Optimization report [here](REPORTS/OPTIMIZATION-REPORT.md).  
+Optimization report [here](OPTIMIZATION-REPORT.md).  
 Go back to [README](../README.md).
