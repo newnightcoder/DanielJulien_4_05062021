@@ -10,5 +10,5 @@ of the website [La Chouette](https://newnightcoder.github.io/DanielJulien_4_0506
 
 <br></br>
 
-Errors report is available [here](REPORTS/ERRORS.md).  
-Optimization report [here](REPORTS/OPTIMIZATION-REPORT.md).
+ERRORS REPORT IS AVAILABLE <ins>[HERE](REPORTS/ERRORS.md)</ins>.  
+OPTIMIZATION REPORT <ins>[HERE](REPORTS/OPTIMIZATION-REPORT.md)</ins>

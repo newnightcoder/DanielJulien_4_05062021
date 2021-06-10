@@ -1,51 +1,51 @@
-# :memo:&nbsp; <ins>ERRORS REPORT</ins>
+# :memo:&nbsp; <ins>RAPPORT D'ERREURS</ins>
 
-## BAD PRACTICES
+## MAUVAISES PRATIQUES
 
 ### <ins>HTML</ins>
 
 **:mag_right:&nbsp; SEO**
 
-- [ ] improper value assigned to `lang` attribute
-- [ ] meta "keywords": content is too vague/repetitive
-- [ ] meta "description": no empty content
-- [ ] title must be provided
-- [ ] usage of `<h3>` instad of `<h2>`
-- [ ] href attribute must include http protocol for external links
+- [ ] valeur invalide pour l'attribut `lang`
+- [ ] meta "keywords": contenu trop vague / répétitif
+- [ ] meta "description": contenu vide
+- [ ] `<title>` doit être renseigné
+- [ ] utilisation de `<h3>` au lieu de `<h2>`
+- [ ] attribut `href` doit inclure protocole http pour les liens externes
       <br></br>
 
-**:wheelchair:&nbsp; ACCESSIBILITY**
+**:wheelchair:&nbsp; ACCESSIBILITÉ**
 
-- [ ] img alt text too long / not descriptive of the img
-- [ ] font-size too small
-- [ ] improper color contrast
+- [ ] texte `alt` pour les img: trop long / non descriptif de l'img
+- [ ] font-size trop petite
+- [ ] contraste couleurs incorrect
       <br></br>
 
 **:rocket:&nbsp; PERFORMANCE**
 
-- [ ] scripts to defer
-- [ ] no empty `<li>` in a `<ul>`
-- [ ] css: too many selectors
-- [ ] css: media queries issues
-- [ ] improper img format (.bmp)
-- [ ] error logged in the console
+- [ ] scripts à charger en `defer`ou `async`
+- [ ] pas de `<li>` vide dans une `<ul>`
+- [ ] css: trop de sélecteurs / sélecteurs inutilisés
+- [ ] css: problème avec les media queries
+- [ ] format img incorrect (.bmp)
+- [ ] erreur dans la console au chargement de la page
 
-## :ledger:&nbsp; <ins>Analysis</ins>
+## :ledger:&nbsp; <ins>Analyse</ins>
 
-| Category     | Issue                                | Description                                          | Good practice                      | Recommended action |
-| ------------ | ------------------------------------ | ---------------------------------------------------- | ---------------------------------- | ------------------ |
-| :mag_right:  | improper content for meta "keywords" | content is too vague / repetitive                    |
-| :mag_right:  | empty content in meta "description"  |
-| :mag_right:  | empty `<title>`                      |                                                      | always provide a title to the page |
-| :wheelchair: | improper alt for img                 | img alt text too long / not descriptive of the img   |
-| :wheelchair: | font-size too small                  | `<p>` font-size is too small / hard to read          |
-| :wheelchair: | improper color contrast              | insufficient brightness of text on img background    |
-| :rocket:     | too many scripts to load             | jquery + other libraries to load before html parsing |
-| :rocket:     | unused html                          | empty `<li>` in `<ul>`                               |
-| :rocket:     | improper heading hierarchy           | usage of `<h3>` instead of `<h2>`                    |
-| :rocket:     | css: too many selectors              |
-|              | css media query issues               |
-|              | improper href in links               | no http protocol for external links                  |
+| Categorie    | Problème                                        | Description                                            | Bonne pratique                          | Action recommendée |
+| ------------ | ----------------------------------------------- | ------------------------------------------------------ | --------------------------------------- | ------------------ |
+| :mag_right:  | `meta` "keywords"                               | contenu trop vague / répétitif                         |
+| :mag_right:  | `meta` "description"                            | contenu vide                                           |
+| :mag_right:  | balise `<title>`                                |                                                        | toujours renseigner le titre de la page |
+| :wheelchair: | texte `alt` pour les img                        | trop long / non descriptif de l'img                    |
+| :wheelchair: | font-size trop petite                           | `<p>` font-size trop petite / difficile à lire         |
+| :wheelchair: | contraste couleurs incorrect                    | contraste insuffisant du texte sur les images          |
+| :rocket:     | trop de scripts à charger                       | le chargement des librairies bloque le parsing du html |
+| :rocket:     | html non utilisé                                | `<li>` vides dans une `<ul>`                           |
+| :rocket:     | hierarchie heading incorrecte                   | utilisation de `<h3>` au lieu de `<h2>`                |
+| :rocket:     | css: problème avec les media queries            |
+|              | css: trop de sélecteurs / sélecteurs inutilisés |
+|              | `href` incorrect dans les liens                 | pas de protocole http pour les liens externes          |
 
 <br></br>
 

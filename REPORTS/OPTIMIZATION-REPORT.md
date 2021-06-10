@@ -1,13 +1,13 @@
-# :chart_with_upwards_trend:&nbsp; <ins>OPTIMIZATION REPORT</ins>
+# :chart_with_upwards_trend:&nbsp; <ins>RAPPORT D'OPTIMISATION</ins>
 
-## BEFORE / AFTER
+## AVANT / APRÈS
 
-- SEO improvements
-- Results comparison:
-  - Accessibility
-  - Performance / loading time
+- Améliorations SEO
+- Comparaison des résultats :
+  - Accessibilité
+  - Performance / temps de chargement
 
-**Lighthouse report before any correction:**
+**Lighthouse report avant correction:**
 
 <img src="/report-img/img1.png" height="100"/>
 
