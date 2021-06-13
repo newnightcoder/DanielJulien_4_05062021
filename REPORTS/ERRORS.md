@@ -19,13 +19,13 @@
   - [ ] problème de dimensions de la navbar sur la page2
   - [ ] dans `<nav>` : les 2 `<div class="keywords">` sont totalement inutiles
   - [ ] `<button>`"toggle navigation" inutile / pas clair
-- [ ] hiérarchisation érronée du heading: utilisation de `<h3>` au lieu de `<h2>`
 - [ ] attribut `href`: pas de protocole http pour les liens externes (footer)
       <br></br>
 
 **:wheelchair:&nbsp; ACCESSIBILITÉ**
 
 - [x] le titre du site `<title>` est vide
+- [ ] hiérarchisation érronée du heading: utilisation de `<h3>` au lieu de `<h2>`
 - [ ] images-texte un peu partout dans le document
 - [ ] texte `alt` pour les img: trop long / non descriptif de l'img
 - [ ] font-size trop petite

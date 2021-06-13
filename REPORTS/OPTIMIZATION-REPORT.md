@@ -13,6 +13,7 @@
 
 - [x] Renseigner un language pour l'attribut `lang`
 - [x] Fourir un titre à la balise `<title>`
+- [x] Respecter la hiérarchisation du _heading_ (pas de `<h3>`au lieu de `<h2>` etc..)
 
 :rocket:&nbsp;<ins>**Performance**</ins>
 
@@ -81,6 +82,20 @@ _NB : mettre un `.` dans `title` revient à ne rien écrire puisque le `.` ne fo
 :rocket:&nbsp; **Amélioration** : +5pts Accessibility (de 81% à 86%)
 
 <img src="img/lighthouse-title-after.png" height="120" width="330"/>
+
+---
+
+:poop:&nbsp; **Respect de la hiérarchisation du _heading_ :** ne pas utiliser de `<h3>` en l'absence de `<h2>` dans le même bloc.
+
+<img src="img/code-h3-before.png" height="95"/>&nbsp;
+
+:construction:&nbsp; **Correction** : tous les `<h3>` sont remplacés par des `<h2>` :
+
+<img src="img/code-h3-after.png" height="95"/>&nbsp;
+
+:rocket:&nbsp; **Amélioration** : +4pts Accessibility (de 86% à 90%)
+
+<img src="img/lighthouse-h3-after.png" height="120" width="330"/>
 
 ---
 
