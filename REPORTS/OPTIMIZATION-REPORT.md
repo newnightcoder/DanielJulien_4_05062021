@@ -2,16 +2,91 @@
 
 ## AVANT / APRÈS
 
-- Améliorations SEO
-- Comparaison des résultats :
-  - Accessibilité
-  - Performance / temps de chargement
+**10 RECOMMANDATIONS**
 
-**Lighthouse report avant correction:**
+:mag_right:&nbsp;<ins>**SEO**</ins>
 
-<img src="/report-img/img1.png" height="100"/>
+- [x] Balise `meta` "description" à renseigner
+- [x] Fournir un titre optimal à la balise `<title>`
 
-<br></br>
+:wheelchair:&nbsp;<ins>**Accessibilité**</ins>
+
+- [x] Renseigner un language pour l'attribut `lang`
+- [x] Fourir un titre à la balise `<title>`
+
+:rocket:&nbsp;<ins>**Performance**</ins>
+
+**LIGHTHOUSE REPORT AVANT CORRECTION**
+
+<img src="img/lighthouse-before.png" height="120" width="320"/>
+
+---
+
+<h1 align="center">🔍 <ins>SEO</ins></h1>
+
+:poop: **Balise `meta` description vide**
+
+<img src="img/code-meta-before1.png" height="20" />&nbsp;
+
+:construction: **Correction** : petit texte de description pour l'attribut `content`
+
+<img src="img/code-meta-after1.png" height="55"/>&nbsp;
+
+:rocket: **Amélioration** : +10pts score SEO (de 80% à 90%)
+
+<img src="img/lighthouse-meta-after.png" height="120" width="330"/>
+
+---
+
+:poop: **Balise `title` vide**
+
+<img src="img/code-title-before.png" height="25"/>&nbsp;
+_NB : mettre un `.` dans `title` ne permettra pas d'être trouvé dans les moteurs de recherche_
+
+:construction: **Correction** : titre fourni (nécessaire pour indexer la page correctement) :
+
+<img src="img/code-title-after.png" height="25"/>&nbsp;
+
+:rocket: **Amélioration** : score SEO à 100% sur l'audit Lighthouse!
+
+<img src="img/lighthouse-title-after.png" height="120" width="330"/>
+
+---
+
+<h1 align="center">♿ <ins>ACCESSIBILITÉ</ins></h1>
+
+:poop: **Attribut `lang` incorrect**
+
+<img src="img/code-lang-before.png" height="55"/>&nbsp;
+
+:construction: **Correction** : modification de l'attribut `lang` avec une valeur valide (nécessaire pour les screen-reader) :
+
+<img src="img/code-lang-after.png" height="55"/>&nbsp;
+
+:rocket: **Amélioration** : +5pts Accessibility (de 76% à 81%)
+
+<img src="img/lighthouse-lang-after.png" height="120" width="330"/>
+
+---
+
+:poop: **Balise `title` vide**
+
+<img src="img/code-title-before.png" height="25"/>&nbsp;
+_NB : mettre un `.` dans `title` revient à ne rien écrire puisque le `.` ne fournit rien au screenreader_
+
+:construction: **Correction** : titre fourni (nécessaire pour les screen-reader) :
+
+<img src="img/code-title-after.png" height="25"/>&nbsp;
+
+:rocket: **Amélioration** : +5pts Accessibility (de 81% à 86%)
+
+<img src="img/lighthouse-title-after.png" height="120" width="330"/>
+
+---
+
+<h1 align="center"> 🚀 <ins>PERFORMANCE</ins></h1>
+
+---
 
 Errors report is available [here](ERRORS.md).  
 Go back to [README](../README.md).

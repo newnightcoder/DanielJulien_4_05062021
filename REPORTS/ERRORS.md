@@ -6,11 +6,13 @@
 
 **:mag_right:&nbsp; SEO**
 
-- [ ] valeur invalide pour l'attribut `lang`
-- [ ] balises `meta` :
-  - [ ] `meta` "keywords": contenu trop vague / répétitif
-  - [ ] `meta` "description": contenu vide
-- [ ] le titre du site `<title>` est vide
+- [x] valeur invalide pour l'attribut `lang`
+- [x] balises `meta` :
+
+  - [x] `meta` "description": contenu vide
+  - [ ] `meta` "keywords": contenu trop vague / répétitif --> pas grave, meta non prise en charge par la majorités des navigateurs
+
+- [x] le titre du site `<title>` est vide
 - [ ] structure du document non optimale: absences de balises sémantiques
 - [ ] menu / barre de navigation :
   - [ ] pas assez clair : lien vers page2 mal nommé
@@ -23,6 +25,7 @@
 
 **:wheelchair:&nbsp; ACCESSIBILITÉ**
 
+- [x] le titre du site `<title>` est vide
 - [ ] images-texte un peu partout dans le document
 - [ ] texte `alt` pour les img: trop long / non descriptif de l'img
 - [ ] font-size trop petite
