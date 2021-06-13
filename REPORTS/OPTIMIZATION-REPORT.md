@@ -24,30 +24,30 @@
 
 <h1 align="center">🔍 <ins>SEO</ins></h1>
 
-:poop: **Balise `meta` description vide**
+:poop:&nbsp; **Balise `meta` description vide :**
 
 <img src="img/code-meta-before1.png" height="20" />&nbsp;
 
-:construction: **Correction** : petit texte de description pour l'attribut `content`
+:construction:&nbsp; **Correction** : petit texte de description pour l'attribut `content`
 
-<img src="img/code-meta-after1.png" height="55"/>&nbsp;
+<img src="img/code-meta-after1.png" height="85"/>&nbsp;
 
-:rocket: **Amélioration** : +10pts score SEO (de 80% à 90%)
+:rocket:&nbsp; **Amélioration** : +10pts score SEO (de 80% à 90%)
 
 <img src="img/lighthouse-meta-after.png" height="120" width="330"/>
 
 ---
 
-:poop: **Balise `title` vide**
+:poop:&nbsp; **Balise `title` vide :**
 
-<img src="img/code-title-before.png" height="25"/>&nbsp;
+<img src="img/code-title-before.png" height="35"/>&nbsp;
 _NB : mettre un `.` dans `title` ne permettra pas d'être trouvé dans les moteurs de recherche_
 
-:construction: **Correction** : titre fourni (nécessaire pour indexer la page correctement) :
+:construction:&nbsp; **Correction** : titre fourni (nécessaire pour indexer la page correctement) :
 
-<img src="img/code-title-after.png" height="25"/>&nbsp;
+<img src="img/code-title-after.png" height="35"/>&nbsp;
 
-:rocket: **Amélioration** : score SEO à 100% sur l'audit Lighthouse!
+:rocket:&nbsp; **Amélioration** : score SEO à 100% sur l'audit Lighthouse!
 
 <img src="img/lighthouse-title-after.png" height="120" width="330"/>
 
@@ -55,30 +55,30 @@ _NB : mettre un `.` dans `title` ne permettra pas d'être trouvé dans les moteu
 
 <h1 align="center">♿ <ins>ACCESSIBILITÉ</ins></h1>
 
-:poop: **Attribut `lang` incorrect**
+:poop:&nbsp; **Attribut `lang` incorrect :**
 
 <img src="img/code-lang-before.png" height="55"/>&nbsp;
 
-:construction: **Correction** : modification de l'attribut `lang` avec une valeur valide (nécessaire pour les screen-reader) :
+:construction:&nbsp; **Correction** : modification de l'attribut `lang` avec une valeur valide (nécessaire pour les screen-reader) :
 
 <img src="img/code-lang-after.png" height="55"/>&nbsp;
 
-:rocket: **Amélioration** : +5pts Accessibility (de 76% à 81%)
+:rocket:&nbsp; **Amélioration** : +5pts Accessibility (de 76% à 81%)
 
 <img src="img/lighthouse-lang-after.png" height="120" width="330"/>
 
 ---
 
-:poop: **Balise `title` vide**
+:poop:&nbsp; **Balise `title` vide :**
 
-<img src="img/code-title-before.png" height="25"/>&nbsp;
+<img src="img/code-title-before.png" height="35"/>&nbsp;
 _NB : mettre un `.` dans `title` revient à ne rien écrire puisque le `.` ne fournit rien au screenreader_
 
-:construction: **Correction** : titre fourni (nécessaire pour les screen-reader) :
+:construction:&nbsp; **Correction** : titre fourni (nécessaire pour les screen-reader) :
 
-<img src="img/code-title-after.png" height="25"/>&nbsp;
+<img src="img/code-title-after.png" height="35"/>&nbsp;
 
-:rocket: **Amélioration** : +5pts Accessibility (de 81% à 86%)
+:rocket:&nbsp; **Amélioration** : +5pts Accessibility (de 81% à 86%)
 
 <img src="img/lighthouse-title-after.png" height="120" width="330"/>
 
