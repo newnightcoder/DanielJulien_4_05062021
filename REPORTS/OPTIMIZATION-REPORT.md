@@ -41,7 +41,8 @@
 
 :poop:&nbsp; **Balise `title` vide :**
 
-<img src="img/code-title-before.png" height="35"/>&nbsp;
+<img src="img/code-title-before.png" height="35"/>
+
 _NB : mettre un `.` dans `title` ne permettra pas d'être trouvé dans les moteurs de recherche_
 
 :construction:&nbsp; **Correction** : titre fourni (nécessaire pour indexer la page correctement) :
@@ -72,7 +73,8 @@ _NB : mettre un `.` dans `title` ne permettra pas d'être trouvé dans les moteu
 
 :poop:&nbsp; **Balise `title` vide :**
 
-<img src="img/code-title-before.png" height="35"/>&nbsp;
+<img src="img/code-title-before.png" height="35"/>
+
 _NB : mettre un `.` dans `title` revient à ne rien écrire puisque le `.` ne fournit rien au screenreader_
 
 :construction:&nbsp; **Correction** : titre fourni (nécessaire pour les screen-reader) :
@@ -85,7 +87,8 @@ _NB : mettre un `.` dans `title` revient à ne rien écrire puisque le `.` ne fo
 
 ---
 
-:poop:&nbsp; **Respect de la hiérarchisation du _heading_ :** ne pas utiliser de `<h3>` en l'absence de `<h2>` dans le même bloc.
+:poop:&nbsp; **Respect de la hiérarchisation du _heading_ :**
+Ne pas utiliser de `<h3>` en l'absence de `<h2>` dans le même bloc.
 
 <img src="img/code-h3-before.png" height="95"/>&nbsp;
 
