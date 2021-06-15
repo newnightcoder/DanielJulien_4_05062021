@@ -6,6 +6,11 @@
 
 - [x] Balise `meta` "description" à renseigner
 - [x] Fournir un titre optimal à la balise `<title>`
+- [ ] menu / barre de navigation :
+  - [ ] pas assez clair : lien vers page2 mal nommé
+  - [ ] problème de dimensions de la navbar sur la page2
+  - [ ] `<button>`"toggle navigation" inutile / pas clair
+  - [ ] les `<div class="keywords">` sont totalement inutiles (mauvaise pratique)
 
 ### :wheelchair:&nbsp; <ins>**ACCESSIBILITÉ**</ins>
 
@@ -28,104 +33,107 @@
 
 <h1 align="center">🔍 <ins>SEO</ins></h1>
 
-:poop:&nbsp; **Balise `meta` description vide :**
+### 1 - <ins>DESCRIPTION DU SITE</ins>
 
+:poop:&nbsp; **Balise `meta` description vide :**
+&nbsp;
 <img src="img/code-meta-before1.png" height="20" />&nbsp;
 
-:construction:&nbsp; **Correction** : petit texte de description pour l'attribut `content`
-
+:construction:&nbsp; <ins>**Correction**</ins> : petit texte de description pour l'attribut `content`
+&nbsp;
 <img src="img/code-meta-after1.png" height="85"/>&nbsp;
 
-:rocket:&nbsp; **Amélioration** : +10pts score SEO (de 80% à 90%)
-
+:rocket:&nbsp; <ins>**Amélioration**</ins> : +10pts score SEO (de 80% à 90%)
+&nbsp;
 <img src="img/lighthouse-meta-after.png" height="120" width="330"/>
 
 ---
 
-:poop:&nbsp; **Balise `title` vide :**
+### 2 - <ins>TITRE DU SITE</ins> (SEO)
 
+:poop:&nbsp; **Balise `title` vide :**
+&nbsp;
 <img src="img/code-title-before.png" height="35"/> _NB : mettre un `.` dans `title` ne permettra pas d'être trouvé dans les moteurs de recherche_
 
-:construction:&nbsp; **Correction** : titre fourni (nécessaire pour indexer la page correctement) :
-
+:construction:&nbsp; <ins>**Correction**</ins> : titre fourni (nécessaire pour indexer la page correctement) :
+&nbsp;
 <img src="img/code-title-after.png" height="35"/>&nbsp;
 
-:rocket:&nbsp; **Amélioration** : score SEO à 100% sur l'audit Lighthouse!
+:rocket:&nbsp; <ins>**Amélioration**</ins> : score SEO à 100% sur l'audit Lighthouse!
+&nbsp;
+<img src="img/lighthouse-title-after.png" height="120" width="330"/>
 
+**_NB : <ins>le titre est aussi très important pour l'accessibilité</ins>.  
+En effet le titre contenu dans `<title>`est nécessaire pour les screen-reader qui le liront à l'utilisateur. Bien renseigner la balise `<title>` améliore donc non seulement le SEO mais aussi l'accessibilité du site.
+Suite à la correction, on gagne +5pts en Accessibilité! (de 81% à 86%)._**
 <img src="img/lighthouse-title-after.png" height="120" width="330"/>
 
 ---
 
 <h1 align="center">♿ <ins>ACCESSIBILITÉ</ins></h1>
 
-:poop:&nbsp; **Attribut `lang` incorrect :**
+### 3 - <ins>LANGUE DU SITE</ins>
 
+:poop:&nbsp; **Attribut `lang` incorrect :**
+&nbsp;
 <img src="img/code-lang-before.png" height="55"/>&nbsp;
 
-:construction:&nbsp; **Correction** : modification de l'attribut `lang` avec une valeur valide (nécessaire pour les screen-reader) :
-
+:construction:&nbsp; <ins>**Correction**</ins> : modification de l'attribut `lang` avec une valeur valide (nécessaire pour les screen-reader) :
+&nbsp;
 <img src="img/code-lang-after.png" height="55"/>&nbsp;
 
-:rocket:&nbsp; **Amélioration** : +5pts Accessibility (de 76% à 81%)
-
+:rocket:&nbsp; <ins>**Amélioration**</ins> : +5pts Accessibility (de 76% à 81%)
+&nbsp;
 <img src="img/lighthouse-lang-after.png" height="120" width="330"/>
 
 ---
 
-:poop:&nbsp; **Balise `title` vide :**
-
-<img src="img/code-title-before.png" height="35"/> _NB : mettre un `.` dans `title` revient à ne rien écrire puisque le `.` ne fournit rien au screenreader_
-
-:construction:&nbsp; **Correction** : titre fourni (nécessaire pour les screen-reader) :
-
-<img src="img/code-title-after.png" height="35"/>&nbsp;
-
-:rocket:&nbsp; **Amélioration** : +5pts Accessibility (de 81% à 86%)
-
-<img src="img/lighthouse-title-after.png" height="120" width="330"/>
-
----
+### 4 - <ins>HIÉRARCHISATION DES TITRES DANS LA PAGE</ins>
 
 :poop:&nbsp; **Respect de la hiérarchisation du _heading_ :** ne pas utiliser de `<h3>` en l'absence de `<h2>` dans le même bloc.
-
+&nbsp;
 <img src="img/code-h3-before.png" height="95"/>&nbsp;
 
-:construction:&nbsp; **Correction** : tous les `<h3>` sont remplacés par des `<h2>` :
-
+:construction:&nbsp; <ins>**Correction**</ins> : tous les `<h3>` sont remplacés par des `<h2>` :
+&nbsp;
 <img src="img/code-h3-after.png" height="95"/>&nbsp;
 
-:rocket:&nbsp; **Amélioration** : +4pts Accessibility (de 86% à 90%)
-
+:rocket:&nbsp; <ins>**Amélioration**</ins> : +4pts Accessibility (de 86% à 90%)
+&nbsp;
 <img src="img/lighthouse-h3-after.png" height="120" width="330"/>
 
 ---
 
-:poop:&nbsp; **Taille de police des paragraphes trop petite:** les textes sont difficiles à lire.
+### 5 - <ins>TAILLE DE LA POLICE</ins>
 
+:poop:&nbsp; **Taille de police des paragraphes trop petite:** les textes sont difficiles à lire.
+&nbsp;
 <img src="img/code-p-before.png" height="55"/>&nbsp;
 <img src="img/p-before.png" height="130"/>&nbsp;
 
-:construction:&nbsp; **Correction** : augmenter la taille de la police (entre 14px et 16px):
-
+:construction:&nbsp; <ins>**Correction**</ins> : augmenter la taille de la police (entre 14px et 16px):
+&nbsp;
 <img src="img/code-p-after.png" height="55"/>&nbsp;
 
-:rocket:&nbsp; **Amélioration** : les paragraphes sont lisibles correctement, sans effort.
-
-<img src="img/p-after.png" height="130" width="330"/>
+:rocket:&nbsp; <ins>**Amélioration**</ins> : les paragraphes sont lisibles correctement, sans effort.
+&nbsp;
+<img src="img/p-after.png" height="155" />
 
 ---
 
-:poop:&nbsp; **Utilisation d'images pour afficher du texte:** certains textes sont sous forme d'image (ne peuvent être lus par les screenreader + impossible à crawler/indexer).
+### 6 - <ins>TEXTES</ins>
 
+:poop:&nbsp; **Utilisation d'images pour afficher du texte:** certains textes sont sous forme d'image (ne peuvent être lus par les screenreader + impossible à crawler/indexer).
+&nbsp;
 <img src="img/code-img-text-before1.png" height="100"/>&nbsp;
 <img src="img/img-text-before.png" height="130"/>&nbsp;
 
-:construction:&nbsp; **Correction** : remplacement des images par du texte sous forme de `<h2>`, `<p>` ou `<span>` selon les situations:
-
+:construction:&nbsp; <ins>**Correction**</ins> : remplacement des images par du texte sous forme de `<h2>`, `<p>` ou `<span>` selon les situations:
+&nbsp;
 <img src="img/code-img-text-after1.png" height="100"/>&nbsp;
 
-:rocket:&nbsp; **Amélioration** : tous les textes affichés sur le site peuvent être lus par les screenreaders + crawlés et indexés par Googlebot.
-
+:rocket:&nbsp; <ins>**Amélioration**</ins> : tous les textes affichés sur le site peuvent être lus par les screenreaders + crawlés et indexés par Googlebot.
+&nbsp;
 <img src="img/img-text-after.png" height="150" width="330"/>&nbsp;
 
 _NB : à l'occasion de cette correction, le background du bloc-4 (lignes horizontales) a été remplacé par un fond blanc simple. Cela augmente la lisibilité des textes._

@@ -18,7 +18,7 @@
   - [ ] pas assez clair : lien vers page2 mal nommé
   - [ ] problème de dimensions de la navbar sur la page2
   - [ ] `<button>`"toggle navigation" inutile / pas clair
-- [ ] les `<div class="keywords">` sont totalement inutiles (mauvaise pratique)
+  - [ ] les `<div class="keywords">` sont totalement inutiles (mauvaise pratique)
 - [ ] attribut `href`: pas de protocole http pour les liens externes (footer)
       <br></br>
 
