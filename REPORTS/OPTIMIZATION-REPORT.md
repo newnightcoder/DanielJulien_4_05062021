@@ -6,11 +6,7 @@
 
 - [x] Balise `meta` "description" à renseigner
 - [x] Fournir un titre optimal à la balise `<title>`
-- [x] menu / barre de navigation :
-  - [x] pas clair : lien vers page2 mal nommé
-  - [x] problème de dimensions de la navbar sur la page2
-  - [x] `<span>`"toggle navigation" inutile
-  - [x] les `<div class="keywords">` sont totalement inutiles (mauvaise pratique)
+- [x] Menu / barre de navigation
 
 ### :wheelchair:&nbsp; <ins>**ACCESSIBILITÉ**</ins>
 
@@ -82,7 +78,7 @@ Suite à la correction, on gagne +5pts en Accessibilité! (de 81% à 86%)._**
 
   <img src="img/navbar-page2-before.png" height="45"/>&nbsp;
 
-- présence de `<div>` cachées contenant des mots-clés afin d'améliorer le référencement (attention: très mauvaise pratique!):
+- présence de `<div>` cachées contenant des mots-clés afin d'améliorer le référencement (attention: très mauvaise pratique!)
 
   <img src="img/div-keywords-code.png" height="45"/>&nbsp;
 
