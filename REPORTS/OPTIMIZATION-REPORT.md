@@ -6,16 +6,15 @@
 
 - [x] Balise `meta` "description" à renseigner
 - [x] Fournir un titre optimal à la balise `<title>`
-- [ ] menu / barre de navigation :
-  - [ ] pas assez clair : lien vers page2 mal nommé
-  - [ ] problème de dimensions de la navbar sur la page2
-  - [ ] `<button>`"toggle navigation" inutile / pas clair
-  - [ ] les `<div class="keywords">` sont totalement inutiles (mauvaise pratique)
+- [x] menu / barre de navigation :
+  - [x] pas clair : lien vers page2 mal nommé
+  - [x] problème de dimensions de la navbar sur la page2
+  - [x] `<span>`"toggle navigation" inutile
+  - [x] les `<div class="keywords">` sont totalement inutiles (mauvaise pratique)
 
 ### :wheelchair:&nbsp; <ins>**ACCESSIBILITÉ**</ins>
 
 - [x] Renseigner un language pour l'attribut `lang`
-- [x] Fourir un titre à la balise `<title>`
 - [x] Respecter la hiérarchisation du _heading_ (pas de `<h3>`au lieu de `<h2>` etc..)
 - [x] font-size trop petite
 - [x] images-texte un peu partout dans le document
@@ -49,7 +48,7 @@
 
 ---
 
-### 2 - <ins>TITRE DU SITE</ins> (SEO)
+### 2 - <ins>TITRE DU SITE</ins>
 
 :poop:&nbsp; **Balise `title` vide :**
 
@@ -71,9 +70,45 @@ Suite à la correction, on gagne +5pts en Accessibilité! (de 81% à 86%)._**
 
 ---
 
+### 3 - <ins>NAVIGATION / MENU</ins>
+
+:poop:&nbsp; **Navigation / menu peu clair :**
+
+- sur la page d'accueil:
+
+  <img src="img/navbar-index-before.png" height="35"/>&nbsp;
+
+- sur la page contact:
+
+  <img src="img/navbar-page2-before.png" height="45"/>&nbsp;
+
+- présence de `<div>` cachées contenant des mots-clés afin d'améliorer le référencement (attention: très mauvaise pratique!):
+
+  <img src="img/div-keywords-code.png" height="45"/>&nbsp;
+
+:construction:&nbsp; <ins>**Correction**</ins> :
+
+- réorganisation et renommage des liens dans la `<navbar>`
+- corrections des erreurs (liens css erronés) sur la page2.html
+- suppression des `<div class="keywords">`
+- ajout d'indice visuel lors du survol et focus (:wheelchair:)
+- meilleur `alt` text pour le logo du site (:wheelchair:)
+
+<!-- <img src="img/code-lang-after.png" height="55"/>&nbsp; -->
+
+:rocket:&nbsp; <ins>**Amélioration**</ins> : le menu `<navbar>` est maintenant beaucoup plus clair/explicite (pour améliorer le SEO) et aussi plus facilement compréhensible pour les utilisateurs (accessibilité améliorée aussi).
+
+<img src="img/navbar-after.png" height="45"/>
+
+**_NB : en corrigeant les erreurs sur la page contact (page2.html), la mise en page de toute la page à été débuggée pour obtenir le layout voulu au départ :_**
+
+AVANT <img src="img/page2-before.png" height="300"/> APRÈS <img src="img/page2-after.png" height="300"/>&nbsp;
+
+---
+
 <h1 align="center">♿ <ins>ACCESSIBILITÉ</ins></h1>
 
-### 3 - <ins>LANGUE DU SITE</ins>
+### 4 - <ins>LANGUE DU SITE</ins>
 
 :poop:&nbsp; **Attribut `lang` incorrect :**
 
@@ -89,7 +124,7 @@ Suite à la correction, on gagne +5pts en Accessibilité! (de 81% à 86%)._**
 
 ---
 
-### 4 - <ins>HIÉRARCHISATION DES TITRES DANS LA PAGE</ins>
+### 5 - <ins>HIÉRARCHISATION DES TITRES DANS LA PAGE</ins>
 
 :poop:&nbsp; **Respect de la hiérarchisation du _heading_ :** ne pas utiliser de `<h3>` en l'absence de `<h2>` dans le même bloc.
 
@@ -105,7 +140,7 @@ Suite à la correction, on gagne +5pts en Accessibilité! (de 81% à 86%)._**
 
 ---
 
-### 5 - <ins>TAILLE DE LA POLICE</ins>
+### 6 - <ins>TAILLE DE LA POLICE</ins>
 
 :poop:&nbsp; **Taille de police des paragraphes trop petite:** les textes sont difficiles à lire.
 
@@ -122,7 +157,7 @@ Suite à la correction, on gagne +5pts en Accessibilité! (de 81% à 86%)._**
 
 ---
 
-### 6 - <ins>TEXTES</ins>
+### 7 - <ins>TEXTES</ins>
 
 :poop:&nbsp; **Utilisation d'images pour afficher du texte:** certains textes sont sous forme d'image (ne peuvent être lus par les screenreader + impossible à crawler/indexer).
 
