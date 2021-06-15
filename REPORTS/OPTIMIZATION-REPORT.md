@@ -14,11 +14,12 @@
 - [x] Respecter la hiérarchisation du _heading_ (pas de `<h3>`au lieu de `<h2>` etc..)
 - [x] font-size trop petite
 - [x] images-texte un peu partout dans le document
+- [ ] problèmes de contraste de certains éléments
 
 ### :rocket:&nbsp; <ins>**PERFORMANCE**</ins>
 
-- [ ] scripts à charger en `defer`ou `async`
 - [ ] format et taille incorrects des images
+- [ ] fichiers JS et CSS non minifiés
 
 ### 🔴&nbsp; **LIGHTHOUSE REPORT AVANT CORRECTION**
 
@@ -30,7 +31,7 @@
 
 ### 1 - <ins>DESCRIPTION DU SITE</ins>
 
-:poop:&nbsp; **Balise `meta` description vide :**
+:poop:&nbsp; **Balise `meta` description vide.**
 
 <img src="img/code-meta-before1.png" height="20" />&nbsp;
 
@@ -46,7 +47,7 @@
 
 ### 2 - <ins>TITRE DU SITE</ins>
 
-:poop:&nbsp; **Balise `title` vide :**
+:poop:&nbsp; **Balise `title` vide.**
 
 <img src="img/code-title-before.png" height="35"/> _NB : mettre un `.` dans `title` ne permettra pas d'être trouvé dans les moteurs de recherche_
 
@@ -68,7 +69,7 @@ Suite à la correction, on gagne +5pts en Accessibilité! (de 81% à 86%)._**
 
 ### 3 - <ins>NAVIGATION / MENU</ins>
 
-:poop:&nbsp; **Navigation / menu peu clair :**
+:poop:&nbsp; **Navigation / menu peu clair.**
 
 - sur la page d'accueil:
 
@@ -106,7 +107,7 @@ AVANT <img src="img/page2-before.png" height="300"/> APRÈS <img src="img/page2-
 
 ### 4 - <ins>LANGUE DU SITE</ins>
 
-:poop:&nbsp; **Attribut `lang` incorrect :**
+:poop:&nbsp; **Attribut `lang` incorrect.**
 
 <img src="img/code-lang-before.png" height="55"/>&nbsp;
 
@@ -122,7 +123,7 @@ AVANT <img src="img/page2-before.png" height="300"/> APRÈS <img src="img/page2-
 
 ### 5 - <ins>HIÉRARCHISATION DES TITRES DANS LA PAGE</ins>
 
-:poop:&nbsp; **Respect de la hiérarchisation du _heading_ :** ne pas utiliser de `<h3>` en l'absence de `<h2>` dans le même bloc.
+:poop:&nbsp; **Non-respect de la hiérarchisation du _heading_.** ne pas utiliser de `<h3>` en l'absence de `<h2>` dans le même bloc.
 
 <img src="img/code-h3-before.png" height="95"/>&nbsp;
 
@@ -138,7 +139,7 @@ AVANT <img src="img/page2-before.png" height="300"/> APRÈS <img src="img/page2-
 
 ### 6 - <ins>TAILLE DE LA POLICE</ins>
 
-:poop:&nbsp; **Taille de police des paragraphes trop petite:** les textes sont difficiles à lire.
+:poop:&nbsp; **Taille de police des paragraphes trop petite.** les textes sont difficiles à lire.
 
 <img src="img/code-p-before.png" height="55"/>&nbsp;
 <img src="img/p-before.png" height="130"/>&nbsp;
@@ -155,7 +156,7 @@ AVANT <img src="img/page2-before.png" height="300"/> APRÈS <img src="img/page2-
 
 ### 7 - <ins>TEXTES</ins>
 
-:poop:&nbsp; **Utilisation d'images pour afficher du texte:** certains textes sont sous forme d'image (ne peuvent être lus par les screenreader + impossible à crawler/indexer).
+:poop:&nbsp; **Utilisation d'images pour afficher du texte.** certains textes sont sous forme d'image (ne peuvent être lus par les screenreader + impossible à crawler/indexer).
 
 <img src="img/code-img-text-before1.png" height="100"/>&nbsp;
 <img src="img/img-text-before.png" height="130"/>&nbsp;
