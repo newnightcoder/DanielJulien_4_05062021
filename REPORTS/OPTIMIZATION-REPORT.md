@@ -66,6 +66,7 @@
 **_NB : <ins>le titre est aussi très important pour l'accessibilité</ins>.  
 En effet le titre contenu dans `<title>`est nécessaire pour les screen-reader qui le liront à l'utilisateur. Bien renseigner la balise `<title>` améliore donc non seulement le SEO mais aussi l'accessibilité du site.
 Suite à la correction, on gagne +5pts en Accessibilité! (de 81% à 86%)._**
+
 <img src="img/lighthouse-title-after.png" height="120" width="330"/>
 
 ---
