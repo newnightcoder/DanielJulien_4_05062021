@@ -37,6 +37,7 @@
 
 - [ ] scripts à charger en `defer`ou `async`
 - [ ] format img incorrect (taille des images, format .bmp)
+- [ ] fichiers JS et CSS non minifiés
 - [ ] pas de `<li>` vide dans une `<ul>`
 - [ ] css: trop de sélecteurs / sélecteurs inutilisés
 - [ ] css: problème avec les media queries

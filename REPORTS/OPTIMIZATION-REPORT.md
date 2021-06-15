@@ -18,7 +18,7 @@
 
 ### :rocket:&nbsp; <ins>**PERFORMANCE**</ins>
 
-- [ ] format et taille incorrects des images
+- [x] format et taille incorrects des images (taille des images, format .bmp)
 - [ ] fichiers JS et CSS non minifiés
 
 ### 🔴&nbsp; **LIGHTHOUSE REPORT AVANT CORRECTION**
@@ -89,9 +89,7 @@ Suite à la correction, on gagne +5pts en Accessibilité! (de 81% à 86%)._**
 - corrections des erreurs (liens css erronés) sur la page2.html
 - suppression des `<div class="keywords">`
 - ajout d'indice visuel lors du survol et focus (:wheelchair:)
-- meilleur `alt` text pour le logo du site (:wheelchair:)
-
-<!-- <img src="img/code-lang-after.png" height="55"/>&nbsp; -->
+- texte `alt` amélioré pour l'image du logo du site (:wheelchair:)&nbsp;
 
 :rocket:&nbsp; <ins>**Amélioration**</ins> : le menu `<navbar>` est maintenant beaucoup plus clair/explicite (pour améliorer le SEO) et aussi plus facilement compréhensible pour les utilisateurs (accessibilité améliorée aussi).
 
@@ -108,6 +106,7 @@ AVANT <img src="img/page2-before.png" height="300"/> APRÈS <img src="img/page2-
 ### 4 - <ins>LANGUE DU SITE</ins>
 
 :poop:&nbsp; **Attribut `lang` incorrect.**
+L'attribut `lang` est défini sur "Default", valeur qui n'existe pas. Il faut choisir le language adapté au site, ici le français.
 
 <img src="img/code-lang-before.png" height="55"/>&nbsp;
 
@@ -123,7 +122,8 @@ AVANT <img src="img/page2-before.png" height="300"/> APRÈS <img src="img/page2-
 
 ### 5 - <ins>HIÉRARCHISATION DES TITRES DANS LA PAGE</ins>
 
-:poop:&nbsp; **Non-respect de la hiérarchisation du _heading_.** ne pas utiliser de `<h3>` en l'absence de `<h2>` dans le même bloc.
+:poop:&nbsp; **Non-respect de la hiérarchisation du _heading_.**  
+Ne pas utiliser de `<h3>` en l'absence de `<h2>` dans le même bloc.
 
 <img src="img/code-h3-before.png" height="95"/>&nbsp;
 
@@ -139,7 +139,8 @@ AVANT <img src="img/page2-before.png" height="300"/> APRÈS <img src="img/page2-
 
 ### 6 - <ins>TAILLE DE LA POLICE</ins>
 
-:poop:&nbsp; **Taille de police des paragraphes trop petite.** les textes sont difficiles à lire.
+:poop:&nbsp; **Taille de police des paragraphes trop petite.**  
+Les textes sont difficiles à lire.
 
 <img src="img/code-p-before.png" height="55"/>&nbsp;
 <img src="img/p-before.png" height="130"/>&nbsp;
@@ -156,7 +157,8 @@ AVANT <img src="img/page2-before.png" height="300"/> APRÈS <img src="img/page2-
 
 ### 7 - <ins>TEXTES</ins>
 
-:poop:&nbsp; **Utilisation d'images pour afficher du texte.** certains textes sont sous forme d'image (ne peuvent être lus par les screenreader + impossible à crawler/indexer).
+:poop:&nbsp; **Utilisation d'images pour afficher du texte.**  
+Certains textes sont sous forme d'image (ne peuvent être lus par les screenreader + impossible à crawler/indexer).
 
 <img src="img/code-img-text-before1.png" height="100"/>&nbsp;
 <img src="img/img-text-before.png" height="130"/>&nbsp;
@@ -176,6 +178,46 @@ AVANT <img src="img/bg-lines-before.png" height="230" width="330"/> APR&Egrave;S
 ---
 
 <h1 align="center"> 🚀 <ins>PERFORMANCE</ins></h1>
+
+---
+
+### 8 - <ins>TAILLE DES IMAGES</ins>
+
+:poop:&nbsp; **Taille et format d'images incorrect**  
+Les images utilisées ne sont pas à la bonne taille ou au au bon format pour le web..
+
+<img src="img/img-size-before1.png" height="100"/>&nbsp;
+<img src="img/img-size-before2.png" height="130"/>&nbsp;
+
+:construction:&nbsp; <ins>**Correction**</ins> :
+
+- images redimensionnées à 270px (taille du conteneur)
+- attributs `width` et `height` stipulés dans le html
+- formats `.bmp` et `jpeg` remplacés par `.png` (favicon et images de la section portfolio)
+
+<!-- <img src="img/code-img-text-after1.png" height="100"/>&nbsp; -->
+
+:rocket:&nbsp; <ins>**Amélioration**</ins> : on gagne en taille (0.4M) et en rapidité d'affichage, d'après le test Network des devtools Google :
+
+AVANT
+
+<img src="img/network-img-before.png" height="30" width="600"/>
+
+APR&Egrave;S
+
+<img src="img/network-img-after.png" height="30" width="600"/>&nbsp;
+
+**_NB : à l'occasion de cette correction, certains détails liés à la <ins>responsivité du site</ins> ont aussi été corrigés :_**
+_- images de la section portfolio centrées sur l'écran (au lieu d'être alignées à gauche)_
+_- div "social" du footer qui contient les icônes réseaux sociaux : `display = flex` au lieu de `block` (colonne)_
+
+AVANT
+
+<!-- <img src="img/bg-lines-before.png" height="230" width="330"/>  -->
+
+APR&Egrave;S
+
+<!-- <img src="img/bg-lines-after.png" height="230" width="330"/>&nbsp; -->
 
 ---
 

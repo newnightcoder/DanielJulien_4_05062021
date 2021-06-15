@@ -341,7 +341,6 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
   background: transparent;
-  color: #000;
   text-decoration: underline;
 }
 
@@ -661,7 +660,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #575757;
 }
 
 .container {
@@ -721,8 +720,13 @@ p {
 }
 
 .social {
-  max-width: 400px;
+  max-width: 300px;
   margin: auto auto auto auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px 0 20px 0;
 }
 
 h2 {
@@ -843,9 +847,9 @@ h4 {
   background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
-.bg-presentation {
+/* .bg-presentation {
   background-image: url("img/image-de-presentation.bmp");
-}
+} */
 
 @media (max-width: 1024px) {
   .bloc {
