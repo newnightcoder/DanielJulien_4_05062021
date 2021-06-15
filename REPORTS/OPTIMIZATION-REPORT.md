@@ -1,15 +1,13 @@
 # :chart_with_upwards_trend:&nbsp; <ins>RAPPORT D'OPTIMISATION</ins>
 
-## AVANT / APRÈS
+## AVANT / APRÈS &nbsp;(**10 RECOMMANDATIONS**)
 
-**10 RECOMMANDATIONS**
-
-:mag_right:&nbsp;<ins>**SEO**</ins>
+### :mag_right:&nbsp; <ins>**SEO**</ins>
 
 - [x] Balise `meta` "description" à renseigner
 - [x] Fournir un titre optimal à la balise `<title>`
 
-:wheelchair:&nbsp;<ins>**Accessibilité**</ins>
+### :wheelchair:&nbsp; <ins>**ACCESSIBILITÉ**</ins>
 
 - [x] Renseigner un language pour l'attribut `lang`
 - [x] Fourir un titre à la balise `<title>`
@@ -17,9 +15,12 @@
 - [x] font-size trop petite
 - [x] images-texte un peu partout dans le document
 
-:rocket:&nbsp;<ins>**Performance**</ins>
+### :rocket:&nbsp; <ins>**PERFORMANCE**</ins>
 
-**LIGHTHOUSE REPORT AVANT CORRECTION**
+- [ ] scripts à charger en `defer`ou `async`
+- [ ] format et taille incorrects des images
+
+### 🔴&nbsp; **LIGHTHOUSE REPORT AVANT CORRECTION**
 
 <img src="img/lighthouse-before.png" height="120" width="320"/>
 
@@ -126,9 +127,10 @@
 :rocket:&nbsp; **Amélioration** : tous les textes affichés sur le site peuvent être lus par les screenreaders + crawlés et indexés par Googlebot.
 
 <img src="img/img-text-after.png" height="150" width="330"/>&nbsp;
+
 _NB : à l'occasion de cette correction, le background du bloc-4 (lignes horizontales) a été remplacé par un fond blanc simple. Cela augmente la lisibilité des textes._
 
-AVANT <img src="img/bg-lines-before.png" height="230" width="330"/> APR&Egrave;S<img src="img/bg-lines-after.png" height="230" width="330"/>&nbsp;
+AVANT <img src="img/bg-lines-before.png" height="230" width="330"/> APR&Egrave;S <img src="img/bg-lines-after.png" height="230" width="330"/>&nbsp;
 
 ---
 

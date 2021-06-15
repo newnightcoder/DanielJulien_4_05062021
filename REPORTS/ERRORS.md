@@ -36,10 +36,10 @@
 **:rocket:&nbsp; PERFORMANCE**
 
 - [ ] scripts à charger en `defer`ou `async`
+- [ ] format img incorrect (taille des images, format .bmp)
 - [ ] pas de `<li>` vide dans une `<ul>`
 - [ ] css: trop de sélecteurs / sélecteurs inutilisés
 - [ ] css: problème avec les media queries
-- [ ] format img incorrect (.bmp)
 - [ ] erreur dans la console au chargement de la page  
        <br></br>
 
