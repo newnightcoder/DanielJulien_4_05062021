@@ -17,20 +17,20 @@
 - [ ] menu / barre de navigation :
   - [ ] pas assez clair : lien vers page2 mal nommé
   - [ ] problème de dimensions de la navbar sur la page2
-  - [ ] dans `<nav>` : les 2 `<div class="keywords">` sont totalement inutiles
   - [ ] `<button>`"toggle navigation" inutile / pas clair
+- [ ] les `<div class="keywords">` sont totalement inutiles (mauvaise pratique)
 - [ ] attribut `href`: pas de protocole http pour les liens externes (footer)
       <br></br>
 
 **:wheelchair:&nbsp; ACCESSIBILITÉ**
 
 - [x] le titre du site `<title>` est vide
-- [ ] hiérarchisation érronée du heading: utilisation de `<h3>` au lieu de `<h2>`
-- [ ] images-texte un peu partout dans le document
+- [x] hiérarchisation érronée du heading: utilisation de `<h3>` au lieu de `<h2>`
+- [x] images-texte un peu partout dans le document
 - [ ] texte `alt` pour les img: trop long / non descriptif de l'img
-- [ ] font-size trop petite
+- [x] font-size trop petite
 - [ ] contraste texte/couleurs incorrect bloc-1, bloc-3, bloc-5
-- [ ] fond rayé du bloc-4
+- [x] fond rayé du bloc-4
       <br></br>
 
 **:rocket:&nbsp; PERFORMANCE**

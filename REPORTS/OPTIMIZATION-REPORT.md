@@ -14,6 +14,8 @@
 - [x] Renseigner un language pour l'attribut `lang`
 - [x] Fourir un titre à la balise `<title>`
 - [x] Respecter la hiérarchisation du _heading_ (pas de `<h3>`au lieu de `<h2>` etc..)
+- [x] font-size trop petite
+- [x] images-texte un peu partout dans le document
 
 :rocket:&nbsp;<ins>**Performance**</ins>
 
@@ -41,9 +43,7 @@
 
 :poop:&nbsp; **Balise `title` vide :**
 
-<img src="img/code-title-before.png" height="35"/>
-
-_NB : mettre un `.` dans `title` ne permettra pas d'être trouvé dans les moteurs de recherche_
+<img src="img/code-title-before.png" height="35"/> _NB : mettre un `.` dans `title` ne permettra pas d'être trouvé dans les moteurs de recherche_
 
 :construction:&nbsp; **Correction** : titre fourni (nécessaire pour indexer la page correctement) :
 
@@ -73,9 +73,7 @@ _NB : mettre un `.` dans `title` ne permettra pas d'être trouvé dans les moteu
 
 :poop:&nbsp; **Balise `title` vide :**
 
-<img src="img/code-title-before.png" height="35"/>
-
-_NB : mettre un `.` dans `title` revient à ne rien écrire puisque le `.` ne fournit rien au screenreader_
+<img src="img/code-title-before.png" height="35"/> _NB : mettre un `.` dans `title` revient à ne rien écrire puisque le `.` ne fournit rien au screenreader_
 
 :construction:&nbsp; **Correction** : titre fourni (nécessaire pour les screen-reader) :
 
@@ -87,8 +85,7 @@ _NB : mettre un `.` dans `title` revient à ne rien écrire puisque le `.` ne fo
 
 ---
 
-:poop:&nbsp; **Respect de la hiérarchisation du _heading_ :**
-Ne pas utiliser de `<h3>` en l'absence de `<h2>` dans le même bloc.
+:poop:&nbsp; **Respect de la hiérarchisation du _heading_ :** ne pas utiliser de `<h3>` en l'absence de `<h2>` dans le même bloc.
 
 <img src="img/code-h3-before.png" height="95"/>&nbsp;
 
@@ -99,6 +96,39 @@ Ne pas utiliser de `<h3>` en l'absence de `<h2>` dans le même bloc.
 :rocket:&nbsp; **Amélioration** : +4pts Accessibility (de 86% à 90%)
 
 <img src="img/lighthouse-h3-after.png" height="120" width="330"/>
+
+---
+
+:poop:&nbsp; **Taille de police des paragraphes trop petite:** les textes sont difficiles à lire.
+
+<img src="img/code-p-before.png" height="55"/>&nbsp;
+<img src="img/p-before.png" height="130"/>&nbsp;
+
+:construction:&nbsp; **Correction** : augmenter la taille de la police (entre 14px et 16px):
+
+<img src="img/code-p-after.png" height="55"/>&nbsp;
+
+:rocket:&nbsp; **Amélioration** : les paragraphes sont lisibles correctement, sans effort.
+
+<img src="img/p-after.png" height="130" width="330"/>
+
+---
+
+:poop:&nbsp; **Utilisation d'images pour afficher du texte:** certains textes sont sous forme d'image (ne peuvent être lus par les screenreader + impossible à crawler/indexer).
+
+<img src="img/code-img-text-before1.png" height="100"/>&nbsp;
+<img src="img/img-text-before.png" height="130"/>&nbsp;
+
+:construction:&nbsp; **Correction** : remplacement des images par du texte sous forme de `<h2>`, `<p>` ou `<span>` selon les situations:
+
+<img src="img/code-img-text-after1.png" height="100"/>&nbsp;
+
+:rocket:&nbsp; **Amélioration** : tous les textes affichés sur le site peuvent être lus par les screenreaders + crawlés et indexés par Googlebot.
+
+<img src="img/img-text-after.png" height="150" width="330"/>&nbsp;
+_NB : à l'occasion de cette correction, le background du bloc-4 (lignes horizontales) a été remplacé par un fond blanc simple. Cela augmente la lisibilité des textes._
+
+AVANT <img src="img/bg-lines-before.png" height="230" width="330"/> APR&Egrave;S<img src="img/bg-lines-after.png" height="230" width="330"/>&nbsp;
 
 ---
 
