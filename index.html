@@ -17,14 +17,26 @@
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
-    <script src="./js/jquery-2.1.0.js" defer></script>
-    <script src="./js/bootstrap.js" defer></script>
-    <script src="./js/blocs.js" defer></script>
-    <script src="./js/jquery.touchSwipe.js" defer></script>
+    <link
+      rel="preload"
+      href="/fonts/fontawesome-webfont.woff2?v=4.7.0"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/fonts/et-line.woff"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/et-line.min.css" />
+    <script src="./js/jquery-2.1.0.min.js" defer></script>
+    <script src="./js/bootstrap.min.js" defer></script>
+    <script src="./js/blocs.min.js" defer></script>
+    <script src="./js/jquery.touchSwipe.min.js" defer></script>
     <!-- <script src="./js/gmaps.js"></script> -->
 
     <title>La chouette agence &vert; entreprise de web design à Lyon</title>
@@ -45,6 +57,7 @@
                 ><img
                   src="img/la-chouette-agence.png"
                   alt="logo La chouette agence"
+                  width="215"
                   height="40"
               /></a>
 
@@ -54,10 +67,11 @@
                 class="ui-navbar-toggle navbar-toggle"
                 data-toggle="collapse"
                 data-target=".navbar-1"
+                aria-label="Menu"
               >
                 <!-- <span class="sr-only">Toggle navigation</span> -->
-                <span class="icon-bar"></span><span class="icon-bar"></span
-                ><span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span><span class="icon-bar"></span>
               </button>
             </div>
             <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
@@ -99,7 +113,8 @@
                 src="img/logo.png"
                 class="center-block image-resize-mode"
                 width="100"
-                alt="logo La chouette agence"
+                height="100"
+                alt="logo en forme de chouette"
               />
               <h1 class="text-center hero-bloc-text tc-white">
                 La chouette agence.
@@ -321,12 +336,12 @@
                 data-gallery-id="gallery-1"
                 data-caption="Création d'un site internet pour un voyageur"
                 data-frame="snapshot-lb"
-                width="270"
-                height="270"
                 ><img
                   src="img/3.png"
                   class="img-responsive portfolio-thumb"
                   alt="plusieurs objectifs d'appareil photo posés sur une table"
+                  width="270"
+                  height="270"
               /></a>
               <h2 class="mg-md text-center">
                 Création d'un site internet pour un voyageur
@@ -343,12 +358,12 @@
                 data-gallery-id="gallery-1"
                 data-caption="Conception d'un site pour une agence de mariage"
                 data-frame="snapshot-lb"
-                width="270"
-                height="270"
                 ><img
                   src="img/4.png"
                   class="img-responsive portfolio-thumb"
-                  alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage"
+                  alt="plan de travail d'un créatif digital"
+                  width="270"
+                  height="270"
               /></a>
               <h2 class="mg-md text-center">
                 Conception d'un site pour une agence de mariage

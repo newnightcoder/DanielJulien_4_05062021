@@ -39,7 +39,7 @@
 
 <img src="img/code-meta-after1.png" height="85"/>&nbsp;
 
-:rocket:&nbsp; <ins>**Amélioration**</ins> : +10pts score SEO (de 80% à 90%)
+:rocket:&nbsp; <ins>**Amélioration**</ins> : +10pts score SEO sur l'audit _Lighthouse_ (de 80% à 90%)
 
 <img src="img/lighthouse-meta-after.png" height="120" width="330"/>
 
@@ -55,13 +55,13 @@
 
 <img src="img/code-title-after.png" height="35"/>&nbsp;
 
-:rocket:&nbsp; <ins>**Amélioration**</ins> : score SEO à 100% sur l'audit Lighthouse!
+:rocket:&nbsp; <ins>**Amélioration**</ins> : score SEO à 100% sur l'audit _Lighthouse_!
 
 <img src="img/lighthouse-title-after.png" height="120" width="330"/>
 
-**_NB : <ins>le titre est aussi très important pour l'accessibilité</ins>.  
-En effet le titre contenu dans `<title>`est nécessaire pour les screen-reader qui le liront à l'utilisateur. Bien renseigner la balise `<title>` améliore donc non seulement le SEO mais aussi l'accessibilité du site.
-Suite à la correction, on gagne +5pts en Accessibilité! (de 81% à 86%)._**
+**\_NB : <ins>le titre est AUSSI très important pour l'accessibilité</ins>.  
+En effet le titre contenu dans `<title>`est nécessaire pour les screen-readers qui le liront à l'utilisateur. Bien renseigner la balise `<title>` améliore donc non seulement le SEO mais aussi l'accessibilité du site.
+Suite à la correction, on gagne +5pts en Accessibilité sur l'audit _Lighthouse_! (de 81% à 86%).**
 
 <img src="img/lighthouse-title-after.png" height="120" width="330"/>
 
@@ -79,7 +79,7 @@ Suite à la correction, on gagne +5pts en Accessibilité! (de 81% à 86%)._**
 
   <img src="img/navbar-page2-before.png" height="45"/>&nbsp;
 
-- présence de `<div>` cachées contenant des mots-clés afin d'améliorer le référencement (attention: très mauvaise pratique!)
+- présence de `<div>` cachées contenant des mots-clés afin d'améliorer le référencement (attention: très mauvaise pratique, condamnée par Google! Donc aucune chance d'améliorer le référencement de cette façon.)
 
   <img src="img/div-keywords-code.png" height="45"/>&nbsp;
 
@@ -88,16 +88,16 @@ Suite à la correction, on gagne +5pts en Accessibilité! (de 81% à 86%)._**
 - réorganisation et renommage des liens dans la `<navbar>`
 - corrections des erreurs (liens css erronés) sur la page2.html
 - suppression des `<div class="keywords">`
-- ajout d'indice visuel lors du survol et focus (:wheelchair:)
+- ajout d'indice visuel lors du survol et focus des liens du menu (:wheelchair:)
 - texte `alt` amélioré pour l'image du logo du site (:wheelchair:)&nbsp;
 
-:rocket:&nbsp; <ins>**Amélioration**</ins> : le menu `<navbar>` est maintenant beaucoup plus clair/explicite (pour améliorer le SEO) et aussi plus facilement compréhensible pour les utilisateurs (accessibilité améliorée aussi).
+:rocket:&nbsp; <ins>**Amélioration**</ins> : le menu `<navbar>` est maintenant beaucoup plus clair/explicite (pour améliorer le <ins>SEO</ins>) et aussi plus facilement compréhensible pour les utilisateurs (<ins>accessibilité</ins> améliorée).
 
 <img src="img/navbar-after.png" height="45"/>
 
 **_NB : en corrigeant les erreurs sur la page contact (page2.html), la mise en page de toute la page à été débuggée pour obtenir le layout voulu au départ :_**
 
-AVANT <img src="img/page2-before.png" height="300"/> APRÈS <img src="img/page2-after.png" height="300"/>&nbsp;
+<ins>AVANT</ins> <img src="img/page2-before.png" height="300"/> <ins>APRÈS</ins> <img src="img/page2-after.png" height="300"/>&nbsp;
 
 ---
 
@@ -114,7 +114,7 @@ L'attribut `lang` est défini sur "Default", valeur qui n'existe pas. Il faut ch
 
 <img src="img/code-lang-after.png" height="55"/>&nbsp;
 
-:rocket:&nbsp; <ins>**Amélioration**</ins> : +5pts Accessibility (de 76% à 81%)
+:rocket:&nbsp; <ins>**Amélioration**</ins> : +5pts Accessibility sur l'audit _Lighthouse_ (de 76% à 81%)
 
 <img src="img/lighthouse-lang-after.png" height="120" width="330"/>
 
@@ -133,14 +133,16 @@ Ne pas utiliser de `<h3>` en l'absence de `<h2>` dans le même bloc.
 
 :rocket:&nbsp; <ins>**Amélioration**</ins> : +4pts Accessibility (de 86% à 90%)
 
-<img src="img/lighthouse-h3-after.png" height="120" width="330"/>
+<img src="img/lighthouse-h3-after.png" height="120" width="330"/> &nbsp;
+
+**_NB : pour aller plus loin et dans le sens d'une bonne hiérarchisation / structuration du code html de la page, il serait bon d'utiliser certaines balises sémantiques comme `header`, `section`, `footer`etc... Mais le sujet ne sera pas abordé dans ce rapport, on focalise ici sur les 10 points les plus importants._**
 
 ---
 
 ### 6 - <ins>TAILLE DE LA POLICE</ins>
 
 :poop:&nbsp; **Taille de police des paragraphes trop petite.**  
-Les textes sont difficiles à lire.
+Les paragraphes de description contenus dans chacun des blocs de la pages sont difficiles à lire car trop petits.
 
 <img src="img/code-p-before.png" height="55"/>&nbsp;
 <img src="img/p-before.png" height="130"/>&nbsp;
@@ -173,21 +175,18 @@ Certains textes sont sous forme d'image (ne peuvent être lus par les screenread
 
 _NB : à l'occasion de cette correction, le background du bloc-4 (lignes horizontales) a été remplacé par un fond blanc simple. Cela augmente la lisibilité des textes._
 
-AVANT <img src="img/bg-lines-before.png" height="230" width="330"/> APR&Egrave;S <img src="img/bg-lines-after.png" height="230" width="330"/>&nbsp;
+<ins>AVANT</ins> <img src="img/bg-lines-before.png" height="230" width="330"/> <ins>APR&Egrave;S</ins> <img src="img/bg-lines-after.png" height="230" width="330"/>&nbsp;
 
 ---
 
 <h1 align="center"> 🚀 <ins>PERFORMANCE</ins></h1>
 
----
-
 ### 8 - <ins>TAILLE DES IMAGES</ins>
 
-:poop:&nbsp; **Taille et format d'images incorrect**  
-Les images utilisées ne sont pas à la bonne taille ou au au bon format pour le web..
+:poop:&nbsp; **Taille et format incorrects pour les images.**  
+Les images utilisées ne sont pas à la bonne taille ou au au bon format pour le web. Soit trop grandes comparées à leur conteneur/CSS, soit au format `.bmp` (ou `.jpeg` pour le favicon), formats non optimaux pour le web.
 
-<img src="img/img-size-before1.png" height="100"/>&nbsp;
-<img src="img/img-size-before2.png" height="130"/>&nbsp;
+<img src="img/img-size-before1.png" height="100"/> <img src="img/img-size-before2.png" height="130"/>&nbsp;
 
 :construction:&nbsp; <ins>**Correction**</ins> :
 
@@ -197,27 +196,48 @@ Les images utilisées ne sont pas à la bonne taille ou au au bon format pour le
 
 <!-- <img src="img/code-img-text-after1.png" height="100"/>&nbsp; -->
 
-:rocket:&nbsp; <ins>**Amélioration**</ins> : on gagne en taille (0.4M) et en rapidité d'affichage, d'après le test Network des devtools Google :
+:rocket:&nbsp; <ins>**Amélioration**</ins> : on gagne en **taille (-0.4MB)** et en **rapidité(-0.5s)** d'affichage, d'après l'outil _Network_ des DevTools (Chrome):
 
-AVANT
+<ins>AVANT / APR&Egrave;S</ins> :
 
 <img src="img/network-img-before.png" height="30" width="600"/>
 
-APR&Egrave;S
-
 <img src="img/network-img-after.png" height="30" width="600"/>&nbsp;
+
+<ins>Audit Lighthouse</ins> : on gagne +3pts en _Performance_ et +4pts en _Best Practices_!
+
+<img src="img/lighthouse-img-after.png" height="120" width="320"/>&nbsp;
 
 **_NB : à l'occasion de cette correction, certains détails liés à la <ins>responsivité du site</ins> ont aussi été corrigés :_**
 _- images de la section portfolio centrées sur l'écran (au lieu d'être alignées à gauche)_
 _- div "social" du footer qui contient les icônes réseaux sociaux : `display = flex` au lieu de `block` (colonne)_
 
-AVANT
+<ins>AVANT</ins> <img src="img/responsive-img-before.png" height="230" width="150"/> <ins>APR&Egrave;S</ins> <img src="img/responsive-img-after.png" height="230" width="150"/>
 
-<!-- <img src="img/bg-lines-before.png" height="230" width="330"/>  -->
+<ins>AVANT</ins> <img src="img/footer-before.png" height="75" width="150"/> <ins>APR&Egrave;S</ins> <img src="img/footer-after.png" height="60" width="150"/>
 
-APR&Egrave;S
+---
 
-<!-- <img src="img/bg-lines-after.png" height="230" width="330"/>&nbsp; -->
+### 9 - <ins>CHARGEMENT ET OPTIMISATION DES FICHIERS</ins>
+
+:poop:&nbsp; **Scripts bloquants et fichiers non minifiés.**  
+Les scripts JS bloquent le html parsing et les fichiers JS et CSS ne sont pas minifiés.&nbsp;
+
+:construction:&nbsp; <ins>**Correction**</ins> :
+
+- ajout de l'attribut `defer` pour les scripts de librairies afin qu'ils ne bloquent pas le parsing du html
+- minification des fichiers CSS et JS avec l'extension _Minifier_ de Vscode
+- préchargement des polices
+
+:rocket:&nbsp; <ins>**Amélioration**</ins> :
+
+- on gagne au minimum +2pts en Performance sur l'audit _Lighthouse_ (de 92 à 94%):
+
+<img src="img/lighthouse-min-after.png" height="120" width="320"/>&nbsp;
+
+- on gagne en poids total des ressources du site d'après l'outil _Network_ de DevTools (sous la barre des 2MB):
+
+<img src="img/network-min-after.png" height="30" width="280"/>&nbsp;
 
 ---
 
