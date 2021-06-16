@@ -241,5 +241,18 @@ Les scripts JS bloquent le html parsing et les fichiers JS et CSS ne sont pas mi
 
 ---
 
+**Validation W3C HTML :**
+
+<img src="img/w3c-html.png" height="" width=""/>&nbsp;
+
+**Validation W3C CSS :**
+
+<img src="img/w3c-css.png" height="" width=""/>
+
+Ces 4 erreurs n'en sont pas, ils s'agit des variables CSS env() utilisées par Bootstrap.css.  
+Une _issue_ a d'ailleurs été ouverte sur Github à ce sujet (lien vers cette _issue_ sur github [ici](https://github.com/w3c/css-validator/issues/111)).
+
+---
+
 Errors report is available [here](ERRORS.md).  
 Go back to [README](../README.md).
