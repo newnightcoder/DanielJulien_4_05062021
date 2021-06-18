@@ -1,3 +1,5 @@
+<span id="top"></span>
+
 # :chart_with_upwards_trend:&nbsp; <ins>RAPPORT D'OPTIMISATION</ins>
 
 ## AVANT / APRÈS &nbsp;(**10 RECOMMANDATIONS**)
@@ -15,13 +17,13 @@ On focalisera ici sur les améliorations du site tel qu'il est, autour de 3 axes
 - [x] Balise `meta` "description" à renseigner
 - [x] Fournir un titre optimal à la balise `<title>`
 - [x] Menu / barre de navigation
-- [x] Respecter la hiérarchisation du _heading_ (pas de `<h3>`au lieu de `<h2>` etc..)
 
 ### [:wheelchair:&nbsp; <ins>**ACCESSIBILITÉ**</ins>](#ACCESS)
 
 - [x] Renseigner un language pour l'attribut `lang`
+- [x] Respecter la hiérarchisation du _heading_ (pas de `<h3>`au lieu de `<h2>` etc..)
 - [x] font-size trop petite
-- [x] images-texte un peu partout dans le document
+- [x] images de texte un peu partout dans le document
 - [ ] problèmes de contraste de certains éléments
 
 ### [:rocket:&nbsp; <ins>**PERFORMANCE**</ins>](#PERF)
@@ -101,7 +103,7 @@ Suite à la correction, on gagne +5pts en Accessibilité sur l'audit Lighthouse!
 
   <img src="img/navbar-page2-before.png" height="45"/>&nbsp;
 
-- présence de `<div>` cachées contenant des mots-clés afin d'améliorer le référencement (attention: très mauvaise pratique, condamnée par Google! Donc aucune chance d'améliorer le référencement de cette façon.)
+- présence de `<div>` cachées contenant des mots-clés afin d'améliorer le référencement. :warning: C'est une très mauvaise pratique considérée comme une _technique Blackhat_, pénalisée par Google! Donc aucune chance d'améliorer le référencement de cette façon.
 
   <img src="img/div-keywords-code.png" height="45"/>&nbsp;
 
@@ -123,29 +125,7 @@ Suite à la correction, on gagne +5pts en Accessibilité sur l'audit Lighthouse!
 
 <ins>AVANT</ins> <img src="img/page2-before.png" height="300"/> <ins>APRÈS</ins> <img src="img/page2-after.png" height="300"/>&nbsp;
 
----
-
-### 4 - <ins>HIÉRARCHISATION DES TITRES DANS LA PAGE</ins>
-
-:poop:&nbsp; **Non-respect de la hiérarchisation du _heading_ :**
-
-- ne pas utiliser de `<h3>` en l'absence de `<h2>` dans le même bloc.
-
-<img src="img/code-h3-before.png" height="95"/>&nbsp;
-
-:construction:&nbsp; <ins>**Correction**</ins>
-
-- tous les `<h3>` sont remplacés par des `<h2>` :
-
-<img src="img/code-h3-after.png" height="95"/>&nbsp;
-
-:rocket:&nbsp; <ins>**Amélioration**</ins>
-
-- +4pts Accessibility (de 86% à 90%)
-
-<img src="img/lighthouse-h3-after.png" height="120" width="330"/> &nbsp;
-
-**_NB : pour aller plus loin et dans le sens d'une bonne hiérarchisation / structuration du code html de la page, il serait bon d'utiliser certaines balises sémantiques comme `header`, `section`, `footer`etc... Mais le sujet ne sera pas abordé dans ce rapport, on focalise ici sur les 10 points les plus importants._**
+[ :arrow_up: back to top](#top)
 
 ---
 
@@ -153,7 +133,7 @@ Suite à la correction, on gagne +5pts en Accessibilité sur l'audit Lighthouse!
 
 <h1 align="center">♿ <ins>ACCESSIBILITÉ</ins></h1>
 
-### 5 - <ins>LANGUE DU SITE</ins>
+### 4 - <ins>LANGUE DU SITE</ins>
 
 :poop:&nbsp; **Attribut `lang` incorrect.**
 
@@ -172,6 +152,34 @@ Suite à la correction, on gagne +5pts en Accessibilité sur l'audit Lighthouse!
 - +5pts Accessibility sur l'audit _Lighthouse_ (de 76% à 81%)
 
 <img src="img/lighthouse-lang-after.png" height="120" width="330"/>
+
+---
+
+### 5 - <ins>HIÉRARCHISATION DES TITRES DANS LA PAGE</ins>
+
+:poop:&nbsp; **Non-respect de la hiérarchisation du _heading_ :**
+
+- ne pas utiliser de `<h3>` en l'absence de `<h2>` dans le même bloc.  
+  Cela nuit à l'accessibilité du site car crée une confusion pour les screen-readers et donc pour leurs utilisateurs.
+
+<img src="img/code-h3-before.png" height="95"/>&nbsp;
+
+:construction:&nbsp; <ins>**Correction**</ins>
+
+- tous les `<h3>` sont remplacés par des `<h2>` :
+
+<img src="img/code-h3-after.png" height="95"/>&nbsp;
+
+:rocket:&nbsp; <ins>**Amélioration**</ins>
+
+- +4pts Accessibility (de 86% à 90%)
+
+<img src="img/lighthouse-h3-after.png" height="120" width="330"/> &nbsp;
+
+**_NB 1 : La hiérarchisation du heading a très longtemps été un des points les plus importants pour un bon référencement, mais tel n'est plus le cas aujourd'hui! Une bonne structure du heading indique une bonne structure du site mais n'améliore plus le référencement en tant que tel._**  
+ **[Interview très intéressante de John Mueller de Google sur ce sujet](https://www.searchenginejournal.com/heading-tags-for-seo/341817)**
+
+**_NB 2 : Pour aller plus loin et dans le sens d'une bonne hiérarchisation / structuration du code html de la page, il serait bon d'utiliser certaines balises sémantiques comme `header`, `section`, `footer`etc... Mais le sujet ne sera pas abordé dans ce rapport, on focalise ici sur les 10 points les plus importants._**
 
 ---
 
@@ -222,6 +230,8 @@ Suite à la correction, on gagne +5pts en Accessibilité sur l'audit Lighthouse!
 **_NB : à l'occasion de cette correction, le background du bloc-4 (lignes horizontales) a été remplacé par un fond blanc simple. Cela augmente la lisibilité des textes._**
 
 <ins>AVANT</ins> <img src="img/bg-lines-before.png" height="230" width="330"/> <ins>APR&Egrave;S</ins> <img src="img/bg-lines-after.png" height="230" width="330"/>&nbsp;
+
+[ :arrow_up: back to top](#top)
 
 ---
 
@@ -291,6 +301,8 @@ _- div "social" du footer qui contient les icônes réseaux sociaux : `display =
 
 <img src="img/network-min-after.png" height="30" width="280"/>&nbsp;
 
+[ :arrow_up: back to top](#top)
+
 ---
 
 <h1 align="center"> ✅ <ins>VALIDATION W3C</ins></h1>
@@ -308,5 +320,7 @@ Une _issue_ a d'ailleurs été ouverte sur Github à ce sujet (lien vers cette _
 
 ---
 
-Errors report is available [here](ERRORS.md).  
-Go back to [README](../README.md).
+ERRORS REPORT IS [HERE](ERRORS.md).  
+BACK TO [README](../README.md).
+
+[ :arrow_up: back to top](#top)
