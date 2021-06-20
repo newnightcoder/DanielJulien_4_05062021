@@ -41,7 +41,7 @@ On focalisera ici sur les améliorations du site tel qu'il est, autour de 3 axes
 
 ---
 
-### [:fire:&nbsp; **<ins>RÉSULTATS DE L'OPTIMISATION PROPOSÉE</ins> :**](#PERF)
+### :fire:&nbsp; **<ins>RÉSULTATS DE L'OPTIMISATION PROPOSÉE</ins> :**
 
 | 🔴&nbsp; **LIGHTHOUSE REPORT <ins>AVANT</ins> CORRECTION</ins>** |   🔴&nbsp; **LIGHTHOUSE REPORT <ins>APRÈS</ins> CORRECTION**   |
 | :--------------------------------------------------------------: | :------------------------------------------------------------: |
@@ -373,7 +373,19 @@ _- div "social" du footer qui contient les icônes réseaux sociaux : `display =
 
 ---
 
-<h1 align="center"> ✅ <ins>VALIDATION W3C</ins></h1>
+ <h2> 🔥 <ins>COMPARATIF DES RÉSULTATS</ins> </h2>
+
+| 🔴&nbsp; **LIGHTHOUSE REPORT <ins>AVANT</ins> CORRECTION</ins>** |   ✅ &nbsp; **LIGHTHOUSE REPORT <ins>APRÈS</ins> CORRECTION**    |
+| :--------------------------------------------------------------: | :--------------------------------------------------------------: |
+| <img src="img/lighthouse-before.png" height="120" width="320"/>  |  <img src="img/lighthouse-after.png" height="120" width="320"/>  |
+|                                                                  |                                                                  |
+| 🔴&nbsp; **NETWORK (TAILLE) <ins>AVANT</ins> CORRECTION</ins>**  | ✅ &nbsp; **NETWORK (TAILLE) <ins>APRÈS</ins> CORRECTION</ins>** |
+|  <img src="img/final-size-before.png" height="25" width="210"/>  |  <img src="img/final-size-after.png" height="25" width="210"/>   |
+|                                                                  |                                                                  |
+|  🔴&nbsp; **NETWORK (TEMPS) <ins>AVANT</ins> CORRECTION</ins>**  | ✅ &nbsp; **NETWORK (TEMPS) <ins>APRÈS</ins> CORRECTION</ins>**  |
+|  <img src="img/final-time-before.png" height="25" width="310"/>  |  <img src="img/final-time-after.png" height="25" width="310"/>   |
+
+<h2 > ✔️ <ins>VALIDATION W3C</ins></h2>
 
 **Validation W3C HTML :**
 
