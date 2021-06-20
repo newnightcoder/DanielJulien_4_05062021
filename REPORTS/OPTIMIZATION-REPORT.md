@@ -373,7 +373,7 @@ _- div "social" du footer qui contient les icônes réseaux sociaux : `display =
 
 ---
 
- <h2> 🔥 <ins>COMPARATIF DES RÉSULTATS</ins> </h2>
+ <h2 align="center"> 🔥 <ins>COMPARATIF DES RÉSULTATS</ins> </h2>
 
 | 🔴&nbsp; **LIGHTHOUSE REPORT <ins>AVANT</ins> CORRECTION</ins>** |   ✅ &nbsp; **LIGHTHOUSE REPORT <ins>APRÈS</ins> CORRECTION**    |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
@@ -385,7 +385,20 @@ _- div "social" du footer qui contient les icônes réseaux sociaux : `display =
 |  🔴&nbsp; **NETWORK (TEMPS) <ins>AVANT</ins> CORRECTION</ins>**  | ✅ &nbsp; **NETWORK (TEMPS) <ins>APRÈS</ins> CORRECTION</ins>**  |
 |  <img src="img/final-time-before.png" height="25" width="310"/>  |  <img src="img/final-time-after.png" height="25" width="310"/>   |
 
-<h2 > ✔️ <ins>VALIDATION W3C</ins></h2>
+|<ins>AMÉLIORATIONS VÉRIFIÉES SUR D'AUTRES OUTILS DE MESURE</ins>|
+:--:
+|**PageSpeed Insights (Google)**|
+|<img src="img/FINAL-PageSpeed.png" height="150" width=""/>|
+|**GT METRIX**|
+|<img src="img/FINAL-GT-metrix.png" height="" width=""/>|
+|**Uptrends**|
+|<img src="img/FINAL-Uptrends.png" height="" width=""/>|
+
+[ :arrow_up: back to top](#top)
+
+---
+
+<h2 align="center"> ✔️ <ins>VALIDATION W3C</ins></h2>
 
 **Validation W3C HTML :**
 
