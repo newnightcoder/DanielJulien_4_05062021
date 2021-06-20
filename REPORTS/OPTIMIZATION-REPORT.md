@@ -43,7 +43,7 @@ On focalisera ici sur les améliorations du site tel qu'il est, autour de 3 axes
 
 ### :fire:&nbsp; **<ins>RÉSULTATS DE L'OPTIMISATION PROPOSÉE</ins> :**
 
-| 🔴&nbsp; **LIGHTHOUSE REPORT <ins>AVANT</ins> CORRECTION</ins>** |   🔴&nbsp; **LIGHTHOUSE REPORT <ins>APRÈS</ins> CORRECTION**   |
+| 🔴&nbsp; **LIGHTHOUSE REPORT <ins>AVANT</ins> CORRECTION</ins>** |   ✅&nbsp; **LIGHTHOUSE REPORT <ins>APRÈS</ins> CORRECTION**   |
 | :--------------------------------------------------------------: | :------------------------------------------------------------: |
 | <img src="img/lighthouse-before.png" height="120" width="320"/>  | <img src="img/lighthouse-after.png" height="120" width="320"/> |
 
