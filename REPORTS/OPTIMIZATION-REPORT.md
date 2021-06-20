@@ -297,7 +297,7 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 - **gros point fort pour l'accessibilité**: on gagne **+7pts sur l'audit _Lighthouse_**! (de 90% à 97%)
 
-<img src="img/lighthouse-aria-after.png" height="120" width="100"/>&nbsp;
+<img src="img/lighthouse-aria-after.png" height="120" width="110"/>&nbsp;
 
 [ :arrow_up: back to top](#top)
 
@@ -335,15 +335,13 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 <img src="img/lighthouse-img-after.png" height="120" width="320"/>&nbsp;
 
-**_NB 1 : à l'occasion de cette correction, certains détails liés à la <ins>responsivité du site</ins> ont aussi été corrigés :_**
+**_NB 1 : suite à cette correction, <ins>disparition de l'erreur loggée dans la console</ins> au lancement du site (`erreur 404` pour l'image du banner)._**
+
+**_NB 2 : à l'occasion de cette correction, certains détails liés à la <ins>responsivité du site</ins> ont aussi été corrigés :_**
 _- images de la section portfolio centrées sur l'écran (au lieu d'être alignées à gauche)_
 _- div "social" du footer qui contient les icônes réseaux sociaux : `display = flex` au lieu de `block` (colonne)_
 
-<ins>AVANT</ins> <img src="img/responsive-img-before.png" height="230" width="150"/> <ins>APR&Egrave;S</ins> <img src="img/responsive-img-after.png" height="230" width="150"/>
-
-<ins>AVANT</ins> <img src="img/footer-before.png" height="75" width="150"/> <ins>APR&Egrave;S</ins> <img src="img/footer-after.png" height="60" width="150"/>&nbsp;
-
-**_NB 2 : suite à cette correction, <ins>disparition de l'erreur loggée dans la console</ins> au lancement du site (`erreur 404` pour l'image du banner)._**
+<ins>AVANT</ins>&nbsp;&nbsp;<img src="img/responsive-img-before.png" height="230" width="150"/>&nbsp;&nbsp;&nbsp;&nbsp;<ins>APR&Egrave;S</ins>&nbsp;&nbsp;<img src="img/responsive-img-after.png" height="230" width="150"/> &nbsp;&nbsp;<ins>AVANT</ins>&nbsp;&nbsp;<img src="img/footer-before.png" height="75" width="150"/>&nbsp;&nbsp;&nbsp;&nbsp;<ins>APR&Egrave;S</ins>&nbsp;&nbsp;<img src="img/footer-after.png" height="60" width="150"/>&nbsp;
 
 ---
 
