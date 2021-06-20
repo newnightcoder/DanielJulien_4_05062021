@@ -361,7 +361,7 @@ _- div "social" du footer qui contient les icônes réseaux sociaux : `display =
 
 :rocket:&nbsp; <ins>**AMÉLIORATIONS**</ins>
 
-- on gagne au minimum **+4pts en Performance** sur l'audit _Lighthouse_ (de 92 à 96%):
+- on gagne au minimum **+4pts en Performance** sur l'audit _Lighthouse_ (de 92% à 96%):
 
 <img src="img/lighthouse-after.png" height="120" width="320"/>&nbsp;
 
@@ -392,7 +392,7 @@ _- div "social" du footer qui contient les icônes réseaux sociaux : `display =
 |**GT METRIX**|
 |<img src="img/FINAL-GT-metrix.png" height="" width=""/>|
 |**Uptrends**|
-|<img src="img/FINAL-Uptrends.png" height="" width=""/>|
+|<img src="img/FINAL-uptrends.png" height="" width=""/>|
 
 [ :arrow_up: back to top](#top)
 
