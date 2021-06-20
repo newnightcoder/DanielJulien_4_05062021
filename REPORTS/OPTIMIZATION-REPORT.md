@@ -361,11 +361,11 @@ _- div "social" du footer qui contient les icônes réseaux sociaux : `display =
 
 :rocket:&nbsp; <ins>**AMÉLIORATIONS**</ins>
 
-- on gagne au minimum **+3pts en Performance** sur l'audit _Lighthouse_ (de 92 à 95%):
+- on gagne au minimum **+4pts en Performance** sur l'audit _Lighthouse_ (de 92 à 96%):
 
 <img src="img/lighthouse-after.png" height="120" width="320"/>&nbsp;
 
-- on gagne en poids total des ressources du site d'après l'outil _Network_ de DevTools (sous la barre des 2MB):
+- **on économise 25%** en poids total des ressources du site d'après l'outil _Network_ de DevTools (de 2MB à 1.5MB):
 
 <img src="img/network-min-after.png" height="30" width="280"/>&nbsp;
 
