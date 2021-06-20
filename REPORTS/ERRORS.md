@@ -26,7 +26,6 @@
 - [x] font-size trop petite
 - [ ] contraste texte/couleurs incorrect bloc-1, bloc-3, bloc-5 / fond rayé du bloc-4
 - [x] certains liens externes ne respectent pas les bonnes pratiques d'accessibilité
-
       <br></br>
 
 ### :rocket:&nbsp; PERFORMANCE
