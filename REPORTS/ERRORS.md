@@ -23,8 +23,8 @@
 - [x] le titre du site `<title>` est vide
 - [x] images-texte un peu partout dans le document
 - [x] texte `alt` pour les img: trop long / non descriptif de l'img
-- [x] font-size trop petite
-- [ ] contraste texte/couleurs incorrect bloc-1, bloc-3, bloc-5 / fond rayé du bloc-4
+- [ ] font-size trop petite
+- [x] contraste insuffisant / fond rayé du bloc-4
 - [ ] les `input` du formulaire sont mal labellisés (pas d'attribut `for` dans `label`)
 - [x] certains liens externes ne respectent pas les bonnes pratiques d'accessibilité
       <br></br>

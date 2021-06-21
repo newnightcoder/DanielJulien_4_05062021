@@ -29,8 +29,8 @@ On focalisera ici sur les améliorations du site tel qu'il est, autour de 3 axes
 
 - [x] Renseigner un language pour l'attribut `lang`
 - [x] Respecter la hiérarchisation du _heading_ (pas de `<h3>`au lieu de `<h2>` etc..)
-- [x] font-size trop petite
 - [x] images de texte un peu partout dans le document
+- [x] contraste insuffisant / fond rayé du bloc-4
 - [x] Liens externes (Partie 2)
   - certains liens ne respectent pas les bonnes pratiques d'accessibilité
 
@@ -141,7 +141,9 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 **_NB : en corrigeant les erreurs sur la page contact (page2.html), la mise en page de toute la page à été débuggée pour obtenir le layout voulu au départ. J'en ai profité pour améliorer l'accessibilité du formulaire de contact en ajoutant des attributs `for` pour les labels_**
 
-<ins>AVANT</ins> <img src="img/page2-before.png" height="300"/> <ins>APRÈS</ins> <img src="img/page2-after.png" height="300"/>&nbsp;
+| <ins>AVANT</ins>                               | <ins>APRÈS</ins>                                    |
+| ---------------------------------------------- | --------------------------------------------------- |
+| <img src="img/page2-before.png" height="300"/> | <img src="img/page2-after.png" height="300"/>&nbsp; |
 
 ---
 
@@ -274,16 +276,22 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 - les textes ressortent beaucoup mieux, lisibles sans effort et on passe les audits _Wave_ et _WCAG Accessibility Audit_:
 
-<img src="img/contrast-after-1.png" height="105"/>
-<img src="img/contrast-after-2.png" height="130"/>
-<img src="img/contrast-after-3.png" height="105"/>
-<img src="img/contrast-after-4.png" height="95"/>
+<img src="img/contrast-after-1.png" height="105"/> <img src="img/contrast-after-2.png" height="130"/> <img src="img/contrast-after-3.png" height="105"/> <img src="img/contrast-after-4.png" height="95"/>
+
+**_NB 1: à l'occasion de cette correction, le background du bloc-4 (lignes horizontales) a été remplacé par un fond blanc simple. Cela augmente aussi la lisibilité des textes._**
+
+| <ins>AVANT</ins>                                              | <ins>APR&Egrave;S</ins>                                      |
+| ------------------------------------------------------------- | ------------------------------------------------------------ | ------ |
+| <img src="img/bg-lines-before.png" height="230" width="330"/> | <img src="img/bg-lines-after.png" height="230" width="330"/> | &nbsp; |
 
 &nbsp;
-**_NB : à l'occasion de cette correction, la taille de la police inférieure à 12px a été remplacée par 15px, pour plus de lisibilité aussi._**
+**_NB 2: à l'occasion de cette correction, la taille de la police inférieure à 12px a été remplacée par 15px, pour plus de lisibilité aussi._**
 
 <img src="img/code-p-before.png" height="55"/> <img src="img/code-p-after.png" height="55"/>
-<img src="img/p-before.png" height="105"/> <img src="img/p-after.png" height="125"/>
+
+| <ins>AVANT</ins>                           | <ins>APRÈS</ins>                          |
+| ------------------------------------------ | ----------------------------------------- |
+| <img src="img/p-before.png" height="105"/> | <img src="img/p-after.png" height="125"/> |
 
 ---
 
@@ -307,10 +315,6 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 - tous les textes affichés sur le site peuvent être lus par les screenreaders + crawlés et indexés par Googlebot.
 
 <img src="img/img-text-after.png" height="150" width="330"/>&nbsp;
-
-**_NB : à l'occasion de cette correction, le background du bloc-4 (lignes horizontales) a été remplacé par un fond blanc simple. Cela augmente la lisibilité des textes._**
-
-<ins>AVANT</ins> <img src="img/bg-lines-before.png" height="230" width="330"/> <ins>APR&Egrave;S</ins> <img src="img/bg-lines-after.png" height="230" width="330"/>&nbsp;
 
 ---
 
@@ -377,7 +381,10 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 _- images de la section portfolio centrées sur l'écran (au lieu d'être alignées à gauche)_
 _- div "social" du footer qui contient les icônes réseaux sociaux : `display = flex` au lieu de `block` (colonne)_
 
-<ins>AVANT</ins>&nbsp;&nbsp;<img src="img/responsive-img-before.png" height="230" width="150"/>&nbsp;&nbsp;&nbsp;&nbsp;<ins>APR&Egrave;S</ins>&nbsp;&nbsp;<img src="img/responsive-img-after.png" height="230" width="150"/> &nbsp;&nbsp;<ins>AVANT</ins>&nbsp;&nbsp;<img src="img/footer-before.png" height="75" width="150"/>&nbsp;&nbsp;&nbsp;&nbsp;<ins>APR&Egrave;S</ins>&nbsp;&nbsp;<img src="img/footer-after.png" height="60" width="150"/>&nbsp;
+| <ins>AVANT</ins>                                                                            | <ins>APR&Egrave;S</ins>                                            |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------ |
+| <img src="img/responsive-img-before.png" height="230" width="150"/>&nbsp;&nbsp;&nbsp;&nbsp; | <img src="img/responsive-img-after.png" height="230" width="150"/> |
+| <img src="img/footer-before.png" height="75" width="150"/>                                  | <img src="img/footer-after.png" height="60" width="150"/>          | &nbsp; |
 
 ---
 
