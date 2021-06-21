@@ -21,13 +21,7 @@ On focalisera ici sur les améliorations du site tel qu'il est, autour de 3 axes
 1.  [Description du site](#1)
 2.  [Titre du site](#2)
 3.  [Navigation / menu](#3)
-    clarté / organisation des liens
-    dimensions
-    `<button>`"toggle navigation" inutile / pas clair
-    `<div class="keywords">` mauvaise pratique
 4.  [Liens externes (Partie 1)](#4a)
-    attributs `href` des liens du footer
-    annuaires de liens dans le footer
 
 ### :wheelchair:&nbsp; [<ins>**ACCESSIBILITÉ**</ins>](#ACCESS)
 
