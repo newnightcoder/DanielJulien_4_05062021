@@ -87,13 +87,13 @@ On focalisera ici sur les améliorations du site tel qu'il est, autour de 3 axes
 
 - mettre un `.` dans `title` ne permettra pas d'être trouvé dans les moteurs de recherche.
 
-<img src="img/code-title-before.png" height="35"/>&nbsp;
+<img src="img/code-title-before.png" height="25"/>&nbsp;
 
 :construction:&nbsp; <ins>**CORRECTION**</ins>
 
 - titre fourni (nécessaire pour indexer la page correctement) :
 
-<img src="img/code-title-after.png" height="35"/>&nbsp;
+<img src="img/code-title-after.png" height="25"/>&nbsp;
 
 :rocket:&nbsp; <ins>**AMÉLIORATION**</ins>
 
@@ -123,7 +123,7 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 - présence de `<div>` cachées contenant des mots-clés afin d'améliorer le référencement. :warning: C'est une très mauvaise pratique considérée comme une _technique Blackhat_, pénalisée par Google! Donc aucune chance d'améliorer le référencement de cette façon.
 
-<img src="img/div-keywords-code.png" height="45"/>&nbsp;
+<img src="img/div-keywords-code.png" height="55"/>&nbsp;
 
 :construction:&nbsp; <ins>**CORRECTIONS**</ins>
 
@@ -139,7 +139,7 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 <img src="img/navbar-after.png" height="45"/>
 
-**_NB : en corrigeant les erreurs sur la page contact (page2.html), la mise en page de toute la page à été débuggée pour obtenir le layout voulu au départ :_**
+**_NB : en corrigeant les erreurs sur la page contact (page2.html), la mise en page de toute la page à été débuggée pour obtenir le layout voulu au départ. J'en ai profité pour améliorer l'accessibilité du formulaire de contact en ajoutant des attributs `for` pour les labels_**
 
 <ins>AVANT</ins> <img src="img/page2-before.png" height="300"/> <ins>APRÈS</ins> <img src="img/page2-after.png" height="300"/>&nbsp;
 
@@ -184,13 +184,13 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 - l'attribut `lang` est défini sur "Default", valeur qui n'existe pas. Il faut choisir le language adapté au site, ici le français.
 
-<img src="img/code-lang-before.png" height="55"/>&nbsp;
+<img src="img/code-lang-before.png" height="35"/>&nbsp;
 
 :construction:&nbsp; <ins>**CORRECTION**</ins>
 
 - modification de l'attribut `lang` avec une valeur valide (nécessaire pour les screen-reader) :
 
-<img src="img/code-lang-after.png" height="55"/>&nbsp;
+<img src="img/code-lang-after.png" height="35"/>&nbsp;
 
 :rocket:&nbsp; <ins>**AMÉLIORATION**</ins>
 
@@ -229,7 +229,7 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 ---
 
-### 7 - <ins>TAILLE DE LA POLICE</ins>
+<!-- ### 7 - <ins>TAILLE DE LA POLICE</ins>
 
 :poop:&nbsp; **Taille de police des paragraphes trop petite :**
 
@@ -248,7 +248,42 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 - les paragraphes sont lisibles correctement, sans effort.
 
-<img src="img/p-after.png" height="155" />
+<img src="img/p-after.png" height="155" /> -->
+
+### 7 - <ins>CONTRASTE INSUFFISANT</ins>
+
+:poop:&nbsp; **Certains éléments sont difficiles à lire car pas assez de contraste :**
+
+- les textes placés sur des background image ou texturés sont difficiles à lire, ce qui nuit à l'accessibilité du site.
+
+  <ins>_Résultats de l'audit WAVE sur les éléments principaux</ins>_:
+
+  <img src="img/contrast-before-1.png" height="155"/>
+  <img src="img/contrast-before-2.png" height="155"/>
+  <img src="img/contrast-before-3.png" height="105"/>
+  <img src="img/contraste-page2-before.png" height="105"/>
+
+&nbsp;
+:construction:&nbsp; <ins>**CORRECTION**</ins>
+
+- création d'une classe `.bg-accessibility` afin d'ajouter un background rgba plus sombre aux éléments concernés :
+
+<img src="img/code-bgaccess.png" height="85"/>&nbsp;
+
+:rocket:&nbsp; <ins>**AMÉLIORATION**</ins>
+
+- les textes ressortent beaucoup mieux, lisibles sans effort et on passe les audits _Wave_ et _WCAG Accessibility Audit_:
+
+<img src="img/contrast-after-1.png" height="105"/>
+<img src="img/contrast-after-2.png" height="130"/>
+<img src="img/contrast-after-3.png" height="105"/>
+<img src="img/contrast-after-4.png" height="95"/>
+
+&nbsp;
+**_NB : à l'occasion de cette correction, la taille de la police inférieure à 12px a été remplacée par 15px, pour plus de lisibilité aussi._**
+
+<img src="img/code-p-before.png" height="55"/> <img src="img/code-p-after.png" height="55"/>
+<img src="img/p-before.png" height="105"/> <img src="img/p-after.png" height="125"/>
 
 ---
 

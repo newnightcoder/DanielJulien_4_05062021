@@ -590,12 +590,14 @@ p {
   max-width: 520px;
   margin: 0 auto;
   padding-bottom: 5px;
+  color: #575757;
   font-size: 20px;
   font-style: italic;
   border-left: none;
 }
 figcaption {
   font-size: 15px;
+  color: #575757;
 }
 .tight-width-whitespace {
   max-width: 700px;
@@ -604,6 +606,13 @@ figcaption {
 .h1 {
   font-size: 20px;
   font-family: "Open Sans";
+}
+
+.bg-accessibility {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: max-content;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 .partenaires-title,
@@ -669,7 +678,7 @@ h4 {
   color: #fff !important;
 }
 .portfolio-thumb {
-  margin-bottom: 24px;
+  margin: 0 auto;
 }
 .portfolio-row {
   margin-bottom: 44px;
