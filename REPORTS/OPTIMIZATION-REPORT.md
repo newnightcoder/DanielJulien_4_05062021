@@ -35,7 +35,6 @@ On focalisera ici sur les améliorations du site tel qu'il est, autour de 3 axes
 6. [Hiérarchisation du _heading_](#6)
 7. [Contraste insuffisant](#7)
 8. [Images de texte](#8)
-
 9. [Liens externes (Partie 2)](#4b)
 
 ### :rocket:&nbsp; [<ins>**PERFORMANCE**<ins>](#PERF)
