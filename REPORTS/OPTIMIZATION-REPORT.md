@@ -44,7 +44,7 @@ On focalisera ici sur les améliorations du site tel qu'il est, autour de 3 axes
 | :--------------------------------------------------------------: | :------------------------------------------------------------: |
 | <img src="img/lighthouse-before.png" height="120" width="320"/>  | <img src="img/lighthouse-after.png" height="120" width="320"/> |
 
-[**_<ins>Aller au comparatif complet des résultats à la fin du rapport ici</ins>._**](#results)
+[**_<ins>Aller au comparatif complet des résultats à la fin du rapport</ins>._**](#results)
 
 ---
 
