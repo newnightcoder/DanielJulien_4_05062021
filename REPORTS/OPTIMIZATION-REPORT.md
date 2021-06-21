@@ -18,29 +18,30 @@ On focalisera ici sur les améliorations du site tel qu'il est, autour de 3 axes
 
 ### :mag_right:&nbsp; [<ins>**SEO**</ins>](#SEO)
 
-- [x] [Description du site](#1)
-- [x] [Titre du site](#2)
-- [x] [Navigation / menu](#3)
-  - clarté / organisation des liens
-  - dimensions
-  - `<button>`"toggle navigation" inutile / pas clair
-  - `<div class="keywords">` mauvaise pratique
-- [x] [Liens externes (Partie 1)](#4a)
-  - attributs `href` des liens du footer
-  - annuaires de liens dans le footer
+1.  [Description du site](#1)
+2.  [Titre du site](#2)
+3.  [Navigation / menu](#3)
+    clarté / organisation des liens
+    dimensions
+    `<button>`"toggle navigation" inutile / pas clair
+    `<div class="keywords">` mauvaise pratique
+4.  [Liens externes (Partie 1)](#4a)
+    attributs `href` des liens du footer
+    annuaires de liens dans le footer
 
 ### :wheelchair:&nbsp; [<ins>**ACCESSIBILITÉ**</ins>](#ACCESS)
 
-- [x] [Langue du site](#5)
-- [x] [Hiérarchisation du _heading_](#6)
-- [x] [Contraste insuffisant](#7)
-- [x] [Images de texte](#8)
-- [x] [Liens externes (Partie 2)](#4b)
+5. [Langue du site](#5)
+6. [Hiérarchisation du _heading_](#6)
+7. [Contraste insuffisant](#7)
+8. [Images de texte](#8)
+
+9. [Liens externes (Partie 2)](#4b)
 
 ### :rocket:&nbsp; [<ins>**PERFORMANCE**<ins>](#PERF)
 
-- [x] [Format et taille des images](#9)
-- [x] [Chargement et minification des fichiers](#10)
+9. [Format et taille des images](#9)
+10. [Chargement et minification des fichiers](#10)
 
 ---
 
