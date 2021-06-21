@@ -319,7 +319,8 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 - images redimensionnées à taille de leur conteneur (270px)
 - attributs `width` et `height` stipulés dans le html
-- formats `.bmp` et `jpeg` remplacés par `.png` (favicon et images de la section portfolio)&nbsp;
+- formats `.bmp` et `jpeg` remplacés par `.png` (favicon et images de la section portfolio)
+- bannière convertie au format WebP&nbsp;
 
 :rocket:&nbsp; <ins>**AMÉLIORATIONS**</ins>
 
