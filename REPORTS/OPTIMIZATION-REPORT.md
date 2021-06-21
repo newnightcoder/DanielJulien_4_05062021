@@ -281,10 +281,9 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 **_NB 1: à l'occasion de cette correction, le background du bloc-4 (lignes horizontales) a été remplacé par un fond blanc simple. Cela augmente aussi la lisibilité des textes._**
 
 | <ins>AVANT</ins>                                              | <ins>APR&Egrave;S</ins>                                      |
-| ------------------------------------------------------------- | ------------------------------------------------------------ | ------ |
-| <img src="img/bg-lines-before.png" height="230" width="330"/> | <img src="img/bg-lines-after.png" height="230" width="330"/> | &nbsp; |
+| ------------------------------------------------------------- | ------------------------------------------------------------ |
+| <img src="img/bg-lines-before.png" height="230" width="330"/> | <img src="img/bg-lines-after.png" height="230" width="330"/> |
 
-&nbsp;
 **_NB 2: à l'occasion de cette correction, la taille de la police inférieure à 12px a été remplacée par 15px, pour plus de lisibilité aussi._**
 
 <img src="img/code-p-before.png" height="55"/> <img src="img/code-p-after.png" height="55"/>
@@ -381,10 +380,10 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 _- images de la section portfolio centrées sur l'écran (au lieu d'être alignées à gauche)_
 _- div "social" du footer qui contient les icônes réseaux sociaux : `display = flex` au lieu de `block` (colonne)_
 
-| <ins>AVANT</ins>                                                                            | <ins>APR&Egrave;S</ins>                                            |
-| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------ |
-| <img src="img/responsive-img-before.png" height="230" width="150"/>&nbsp;&nbsp;&nbsp;&nbsp; | <img src="img/responsive-img-after.png" height="230" width="150"/> |
-| <img src="img/footer-before.png" height="75" width="150"/>                                  | <img src="img/footer-after.png" height="60" width="150"/>          | &nbsp; |
+| <ins>AVANT</ins>                                                    | <ins>APR&Egrave;S</ins>                                            |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| <img src="img/responsive-img-before.png" height="230" width="150"/> | <img src="img/responsive-img-after.png" height="230" width="150"/> |
+| <img src="img/footer-before.png" height="75" width="150"/>          | <img src="img/footer-after.png" height="60" width="150"/>          |
 
 ---
 
