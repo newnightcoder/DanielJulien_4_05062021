@@ -610,7 +610,7 @@ figcaption {
 
 .bg-accessibility {
   background-color: rgba(0, 0, 0, 0.7);
-  width: max-content;
+  max-width: max-content;
   margin: 0 auto;
   padding: 10px;
 }

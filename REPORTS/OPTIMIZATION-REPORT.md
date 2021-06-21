@@ -272,7 +272,7 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 - création d'une classe `.bg-accessibility` afin d'ajouter un background rgba plus sombre aux éléments concernés :
 
-<img src="img/code-bgaccess.png" height="85"/>&nbsp;
+<img src="img/code-bgaccess.png" height="80"/>&nbsp;
 
 :rocket:&nbsp; <ins>**AMÉLIORATION**</ins>
 
