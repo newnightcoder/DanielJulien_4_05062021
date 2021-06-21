@@ -2,7 +2,7 @@
 
 # :chart_with_upwards_trend:&nbsp; <ins>RAPPORT D'OPTIMISATION</ins>
 
-## AVANT / APRÈS &nbsp;(**10 RECOMMANDATIONS**)
+## <ins>AVANT / APRÈS &nbsp;(**10 RECOMMANDATIONS**)</ins>
 
 Toutes les recommandations ont été implémentées sans toucher aux fichiers ou à l'architecture du site.
 Celui-ci pourrait être simplifié en utilisant moins de libraries (sans Bootstrap ni Blocs.js, juste avec CSS grid par exemple). Cela pourra faire l'objet d'un autre audit.
@@ -12,32 +12,35 @@ On focalisera ici sur les améliorations du site tel qu'il est, autour de 3 axes
 - :wheelchair:&nbsp; **Accessibilité**
 - :rocket:&nbsp; **Performance**
 
-### [:mag_right:&nbsp; <ins>**SEO**</ins>](#SEO)
+<span id="top-menu"></span>
 
-- [x] Balise `meta` "description" à renseigner
-- [x] Fournir un titre optimal à la balise `<title>`
-- [x] Menu / barre de navigation
+## <ins>SOMMAIRE DU RAPPORT</ins>
+
+### :mag_right:&nbsp; [<ins>**SEO**</ins>](#SEO)
+
+- [x] [Description du site](#1)
+- [x] [Titre du site](#2)
+- [x] [Navigation / menu](#3)
   - clarté / organisation des liens
-  - attention aux dimensions
+  - dimensions
   - `<button>`"toggle navigation" inutile / pas clair
-  - les `<div class="keywords">` sont une mauvaise pratique
-- [x] Liens externes (Partie 1)
-  - attributs `href` des liens du footer contient des url erronnées/inaccessibles
-  - les annuaires de liens dans le footer consitutent une très mauvaise pratique
+  - `<div class="keywords">` mauvaise pratique
+- [x] [Liens externes (Partie 1)](#4a)
+  - attributs `href` des liens du footer
+  - annuaires de liens dans le footer
 
-### [:wheelchair:&nbsp; <ins>**ACCESSIBILITÉ**</ins>](#ACCESS)
+### :wheelchair:&nbsp; [<ins>**ACCESSIBILITÉ**</ins>](#ACCESS)
 
-- [x] Renseigner un language pour l'attribut `lang`
-- [x] Respecter la hiérarchisation du _heading_ (pas de `<h3>`au lieu de `<h2>` etc..)
-- [x] images de texte un peu partout dans le document
-- [x] contraste insuffisant / fond rayé du bloc-4
-- [x] Liens externes (Partie 2)
-  - certains liens ne respectent pas les bonnes pratiques d'accessibilité
+- [x] [Langue du site](#5)
+- [x] [Hiérarchisation du _heading_](#6)
+- [x] [Contraste insuffisant](#7)
+- [x] [Images de texte](#8)
+- [x] [Liens externes (Partie 2)](#4b)
 
-### [:rocket:&nbsp; <ins>**PERFORMANCE**<ins>](#PERF)
+### :rocket:&nbsp; [<ins>**PERFORMANCE**<ins>](#PERF)
 
-- [x] format et taille incorrects des images (taille des images, format .bmp)
-- [x] fichiers JS et CSS non minifiés
+- [x] [Format et taille des images](#9)
+- [x] [Chargement et minification des fichiers](#10)
 
 ---
 
@@ -46,6 +49,8 @@ On focalisera ici sur les améliorations du site tel qu'il est, autour de 3 axes
 | 🔴&nbsp; **LIGHTHOUSE REPORT <ins>AVANT</ins> CORRECTION</ins>** |   ✅&nbsp; **LIGHTHOUSE REPORT <ins>APRÈS</ins> CORRECTION**   |
 | :--------------------------------------------------------------: | :------------------------------------------------------------: |
 | <img src="img/lighthouse-before.png" height="120" width="320"/>  | <img src="img/lighthouse-after.png" height="120" width="320"/> |
+
+**_Aller au comparatif complet des résultats à la fin du rapport_** [_<ins>ici</ins>._](#results)
 
 ---
 
@@ -58,6 +63,8 @@ On focalisera ici sur les améliorations du site tel qu'il est, autour de 3 axes
 <span id="SEO"></span>
 
 <h1 align="center">🔍 <ins>SEO</ins></h1>
+
+<span id="1"></span>
 
 ### 1 - <ins>DESCRIPTION DU SITE</ins>
 
@@ -77,9 +84,13 @@ On focalisera ici sur les améliorations du site tel qu'il est, autour de 3 axes
 
 - on gagne **+10pts score SEO** sur l'audit _Lighthouse_ (de 80% à 90%)
 
-<img src="img/lighthouse-meta-after.png" height="120" width="330"/>
+<img src="img/lighthouse-meta-after.png" height="120" width="330"/>&nbsp;
+
+[ :arrow_up: retour au sommaire](#top-menu)
 
 ---
+
+<span id="2"></span>
 
 ### 2 - <ins>TITRE DU SITE</ins>
 
@@ -101,13 +112,17 @@ On focalisera ici sur les améliorations du site tel qu'il est, autour de 3 axes
 
 <img src="img/lighthouse-title-after.png" height="120" width="330"/>&nbsp;
 
-**_NB : <ins>le titre est AUSSI très important pour l'accessibilité</ins>.  
+**_NB: <ins>le titre est AUSSI très important pour l'accessibilité</ins>.  
 En effet le titre contenu dans `<title>`est nécessaire pour les screen-readers qui le liront à l'utilisateur. Bien renseigner la balise `<title>` améliore donc non seulement le SEO mais aussi l'accessibilité du site.
 Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighthouse! (de 81% à 86%)<ins>._**
 
-<img src="img/lighthouse-title-after.png" height="120" width="330"/>
+<img src="img/lighthouse-title-after.png" height="120" width="330"/>&nbsp;
+
+[ :arrow_up: retour au sommaire](#top-menu)
 
 ---
+
+<span id="3"></span>
 
 ### 3 - <ins>NAVIGATION / MENU</ins>
 
@@ -139,13 +154,18 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 <img src="img/navbar-after.png" height="45"/>
 
-**_NB : en corrigeant les erreurs sur la page contact (page2.html), la mise en page de toute la page à été débuggée pour obtenir le layout voulu au départ. J'en ai profité pour améliorer l'accessibilité du formulaire de contact en ajoutant des attributs `for` pour les labels_**
+**_NB: en corrigeant les erreurs sur la page contact (page2.html), la mise en page de toute la page à été débuggée pour obtenir le layout voulu au départ. J'en ai profité pour améliorer l'accessibilité du formulaire de contact en ajoutant des attributs `for` pour les labels_**
 
-| <ins>AVANT</ins>                               | <ins>APRÈS</ins>                                    |
-| ---------------------------------------------- | --------------------------------------------------- |
-| <img src="img/page2-before.png" height="300"/> | <img src="img/page2-after.png" height="300"/>&nbsp; |
+| <ins>AVANT</ins>                               | <ins>APRÈS</ins>                              |
+| ---------------------------------------------- | --------------------------------------------- |
+| <img src="img/page2-before.png" height="300"/> | <img src="img/page2-after.png" height="300"/> |
+
+&nbsp;
+[ :arrow_up: retour au sommaire](#top-menu)
 
 ---
+
+<span id="4a"></span>
 
 ### <ins>LIENS EXTERNES (PARTIE 1: SEO)</ins>
 
@@ -169,16 +189,17 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 :rocket:&nbsp; <ins>**AMÉLIORATIONS**</ins>
 
 - le site est maintenant conforme aux consignes de Google relatives aux systèmes de liens: on ne risque plus de pénalité SEO.
+  &nbsp;
 
-<!-- <img src="img/lighthouse-links-after.png" height="120" width="320"/>&nbsp; -->
-
-[ :arrow_up: back to top](#top)
+[ :arrow_up: retour au sommaire](#top-menu)
 
 ---
 
 <span id="ACCESS"></span>
 
 <h1 align="center">♿ <ins>ACCESSIBILITÉ</ins></h1>
+
+<span id="5"></span>
 
 ### 5 - <ins>LANGUE DU SITE</ins>
 
@@ -198,9 +219,13 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 - on gagne **+5pts d'Accessibilité** sur l'audit _Lighthouse_ (de 76% à 81%)
 
-<img src="img/lighthouse-lang-after.png" height="120" width="330"/>
+<img src="img/lighthouse-lang-after.png" height="120" width="330"/>&nbsp;
+
+[ :arrow_up: retour au sommaire](#top-menu)
 
 ---
+
+<span id="6"></span>
 
 ### 6 - <ins>HIÉRARCHISATION DES TITRES DANS LA PAGE</ins>
 
@@ -224,33 +249,16 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 <img src="img/lighthouse-h3-after.png" height="120" width="330"/> &nbsp;
 
-**_NB 1 : La hiérarchisation du heading a très longtemps été un des points les plus importants pour un bon référencement, mais tel n'est plus le cas aujourd'hui! Une bonne structure du heading indique une bonne structure du site mais n'améliore plus le référencement en tant que tel._**  
+**_NB 1: La hiérarchisation du heading a très longtemps été un des points les plus importants pour un bon référencement, mais ce n'est plus vraiment le cas aujourd'hui. C'est davantage une question d'accessibilité que de référencement pur et dur._**  
  **[Sur ce sujet : réponses très intéressantes de John Mueller, expert SEO chez Google. ](https://www.searchenginejournal.com/heading-tags-for-seo/341817)**
 
-**_NB 2 : Pour aller plus loin et dans le sens d'une bonne hiérarchisation / structuration du code html de la page, il serait bon de simplifier le code et d'utiliser certaines balises sémantiques comme `header`, `main`, `section`, `footer`etc... Mais le sujet ne sera pas approfondi dans ce rapport, on focalise ici sur les 10 points les plus importants._**
+**_NB 2: Pour aller plus loin et dans le sens d'une bonne hiérarchisation / structuration du code html de la page, il serait bon de simplifier le code et d'utiliser certaines balises sémantiques comme `header`, `main`, `section`, `footer`etc... Mais le sujet ne sera pas approfondi dans ce rapport, on focalise ici sur les 10 points les plus importants._**
+
+[ :arrow_up: retour au sommaire](#top-menu)
 
 ---
 
-<!-- ### 7 - <ins>TAILLE DE LA POLICE</ins>
-
-:poop:&nbsp; **Taille de police des paragraphes trop petite :**
-
-- les paragraphes de description contenus dans chacun des blocs de la pages sont difficiles à lire car trop petits.
-
-<img src="img/code-p-before.png" height="55"/>&nbsp;
-<img src="img/p-before.png" height="130"/>&nbsp;
-
-:construction:&nbsp; <ins>**CORRECTION**</ins>
-
-- augmenter la taille de la police (entre 14px et 16px) :
-
-<img src="img/code-p-after.png" height="55"/>&nbsp;
-
-:rocket:&nbsp; <ins>**AMÉLIORATION**</ins>
-
-- les paragraphes sont lisibles correctement, sans effort.
-
-<img src="img/p-after.png" height="155" /> -->
+<span id="7"></span>
 
 ### 7 - <ins>CONTRASTE INSUFFISANT</ins>
 
@@ -292,9 +300,13 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 | ------------------------------------------ | ----------------------------------------- |
 | <img src="img/p-before.png" height="105"/> | <img src="img/p-after.png" height="125"/> |
 
+[ :arrow_up: retour au sommaire](#top-menu)
+
 ---
 
-### 8 - <ins>TEXTES</ins>
+<span id="8"></span>
+
+### 8 - <ins>IMAGES DE TEXTE</ins>
 
 :poop:&nbsp; **Utilisation d'images pour afficher du texte :**
 
@@ -315,7 +327,11 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 <img src="img/img-text-after.png" height="150" width="330"/>&nbsp;
 
+[ :arrow_up: retour au sommaire](#top-menu)
+
 ---
+
+<span id="4b"></span>
 
 ### <ins>LIENS EXTERNES (PARTIE 2: ACCESSIBILITÉ)</ins>
 
@@ -337,7 +353,7 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 <img src="img/lighthouse-aria-after.png" height="120" width="110"/>&nbsp;
 
-[ :arrow_up: back to top](#top)
+[ :arrow_up: retour au sommaire](#top-menu)
 
 ---
 
@@ -345,7 +361,9 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 <h1 align="center"> 🚀 <ins>PERFORMANCE</ins></h1>
 
-### 9 - <ins>TAILLE DES IMAGES</ins>
+<span id="9"></span>
+
+### 9 - <ins>FORMAT ET TAILLE DES IMAGES</ins>
 
 :poop:&nbsp; **Taille et format incorrects pour les images :**
 
@@ -374,9 +392,9 @@ Suite à la correction, on gagne <ins>+5pts en Accessibilité sur l'audit Lighth
 
 <img src="img/lighthouse-img-after.png" height="120" width="320"/>&nbsp;
 
-**_NB 1 : suite à cette correction, <ins>disparition de l'erreur loggée dans la console</ins> au lancement du site (`erreur 404` pour l'image du banner)._**
+**_NB 1: suite à cette correction, <ins>disparition de l'erreur loggée dans la console</ins> au lancement du site (`erreur 404` pour l'image du banner)._**
 
-**_NB 2 : à l'occasion de cette correction, certains détails liés à la <ins>responsivité du site</ins> ont aussi été corrigés :_**
+**_NB 2: à l'occasion de cette correction, certains détails liés à la <ins>responsivité du site</ins> ont aussi été corrigés :_**
 _- images de la section portfolio centrées sur l'écran (au lieu d'être alignées à gauche)_
 _- div "social" du footer qui contient les icônes réseaux sociaux : `display = flex` au lieu de `block` (colonne)_
 
@@ -385,9 +403,13 @@ _- div "social" du footer qui contient les icônes réseaux sociaux : `display =
 | <img src="img/responsive-img-before.png" height="230" width="150"/> | <img src="img/responsive-img-after.png" height="230" width="150"/> |
 | <img src="img/footer-before.png" height="75" width="150"/>          | <img src="img/footer-after.png" height="60" width="150"/>          |
 
+[ :arrow_up: retour au sommaire](#top-menu)
+
 ---
 
-### 10 - <ins>CHARGEMENT ET OPTIMISATION DES FICHIERS</ins>
+<span id="10"></span>
+
+### 10 - <ins>CHARGEMENT ET MINIFICATION DES FICHIERS</ins>
 
 :poop:&nbsp; **Scripts bloquants et fichiers non minifiés.**
 
@@ -409,11 +431,13 @@ _- div "social" du footer qui contient les icônes réseaux sociaux : `display =
 
 <img src="img/network-min-after.png" height="30" width="280"/>&nbsp;
 
-[ :arrow_up: back to top](#top)
+[ :arrow_up: retour au sommaire](#top-menu)
 
 ---
 
- <h2 align="center"> 🔥 <ins>COMPARATIF DES RÉSULTATS</ins> </h2>
+<span id="results"></span>
+
+ <h2 align="center"> 🔥 <ins>COMPARATIF COMPLET DES RÉSULTATS</ins> </h2>
 
 | 🔴&nbsp; **LIGHTHOUSE REPORT <ins>AVANT</ins> CORRECTION</ins>** |   ✅ &nbsp; **LIGHTHOUSE REPORT <ins>APRÈS</ins> CORRECTION**    |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
@@ -434,7 +458,7 @@ _- div "social" du footer qui contient les icônes réseaux sociaux : `display =
 |**Uptrends**|
 |<img src="img/FINAL-uptrends.png" height="" width=""/>|
 
-[ :arrow_up: back to top](#top)
+[ :arrow_up: retour au sommaire](#top-menu)
 
 ---
 
